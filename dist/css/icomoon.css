@@ -1,0 +1,1498 @@
+@font-face {
+  font-family: 'IcoMoon Free';
+  src: url("../fonts/icomoon/IcoMoon-Free.eot?v=1.0.0");
+  src: url("../fonts/icomoon/IcoMoon-Free.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/icomoon/IcoMoon-Free.woff2?v=1.0.0") format("woff2"), url("../fonts/icomoon/IcoMoon-Free.woff?v=1.0.0") format("woff"), url("../fonts/icomoon/IcoMoon-Free.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.imo {
+  display: inline-block;
+  font: normal normal normal 14px "IcoMoon Free";
+  font-size: inherit;
+  speak: none;
+  vertical-align: 0%;
+  text-rendering: auto;
+  /* Enable Ligatures ================ */
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
+
+.imo-home:before {
+  content: "\e900"; }
+
+.imo-home2:before {
+  content: "\e901"; }
+
+.imo-home3:before {
+  content: "\e902"; }
+
+.imo-office:before {
+  content: "\e903"; }
+
+.imo-newspaper:before {
+  content: "\e904"; }
+
+.imo-pencil:before {
+  content: "\e905"; }
+
+.imo-pencil2:before {
+  content: "\e906"; }
+
+.imo-quill:before {
+  content: "\e907"; }
+
+.imo-pen:before {
+  content: "\e908"; }
+
+.imo-blog:before {
+  content: "\e909"; }
+
+.imo-eyedropper:before {
+  content: "\e90a"; }
+
+.imo-droplet:before {
+  content: "\e90b"; }
+
+.imo-paint-format:before {
+  content: "\e90c"; }
+
+.imo-image:before {
+  content: "\e90d"; }
+
+.imo-images:before {
+  content: "\e90e"; }
+
+.imo-camera:before {
+  content: "\e90f"; }
+
+.imo-headphones:before {
+  content: "\e910"; }
+
+.imo-music:before {
+  content: "\e911"; }
+
+.imo-play:before {
+  content: "\e912"; }
+
+.imo-film:before {
+  content: "\e913"; }
+
+.imo-video-camera:before {
+  content: "\e914"; }
+
+.imo-dice:before {
+  content: "\e915"; }
+
+.imo-pacman:before {
+  content: "\e916"; }
+
+.imo-spades:before {
+  content: "\e917"; }
+
+.imo-clubs:before {
+  content: "\e918"; }
+
+.imo-diamonds:before {
+  content: "\e919"; }
+
+.imo-bullhorn:before {
+  content: "\e91a"; }
+
+.imo-connection:before {
+  content: "\e91b"; }
+
+.imo-podcast:before {
+  content: "\e91c"; }
+
+.imo-feed:before {
+  content: "\e91d"; }
+
+.imo-mic:before {
+  content: "\e91e"; }
+
+.imo-book:before {
+  content: "\e91f"; }
+
+.imo-books:before {
+  content: "\e920"; }
+
+.imo-library:before {
+  content: "\e921"; }
+
+.imo-file-text:before {
+  content: "\e922"; }
+
+.imo-profile:before {
+  content: "\e923"; }
+
+.imo-file-empty:before {
+  content: "\e924"; }
+
+.imo-files-empty:before {
+  content: "\e925"; }
+
+.imo-file-text2:before {
+  content: "\e926"; }
+
+.imo-file-picture:before {
+  content: "\e927"; }
+
+.imo-file-music:before {
+  content: "\e928"; }
+
+.imo-file-play:before {
+  content: "\e929"; }
+
+.imo-file-video:before {
+  content: "\e92a"; }
+
+.imo-file-zip:before {
+  content: "\e92b"; }
+
+.imo-copy:before {
+  content: "\e92c"; }
+
+.imo-paste:before {
+  content: "\e92d"; }
+
+.imo-stack:before {
+  content: "\e92e"; }
+
+.imo-folder:before {
+  content: "\e92f"; }
+
+.imo-folder-open:before {
+  content: "\e930"; }
+
+.imo-folder-plus:before {
+  content: "\e931"; }
+
+.imo-folder-minus:before {
+  content: "\e932"; }
+
+.imo-folder-download:before {
+  content: "\e933"; }
+
+.imo-folder-upload:before {
+  content: "\e934"; }
+
+.imo-price-tag:before {
+  content: "\e935"; }
+
+.imo-price-tags:before {
+  content: "\e936"; }
+
+.imo-barcode:before {
+  content: "\e937"; }
+
+.imo-qrcode:before {
+  content: "\e938"; }
+
+.imo-ticket:before {
+  content: "\e939"; }
+
+.imo-cart:before {
+  content: "\e93a"; }
+
+.imo-coin-dollar:before {
+  content: "\e93b"; }
+
+.imo-coin-euro:before {
+  content: "\e93c"; }
+
+.imo-coin-pound:before {
+  content: "\e93d"; }
+
+.imo-coin-yen:before {
+  content: "\e93e"; }
+
+.imo-credit-card:before {
+  content: "\e93f"; }
+
+.imo-calculator:before {
+  content: "\e940"; }
+
+.imo-lifebuoy:before {
+  content: "\e941"; }
+
+.imo-phone:before {
+  content: "\e942"; }
+
+.imo-phone-hang-up:before {
+  content: "\e943"; }
+
+.imo-address-book:before {
+  content: "\e944"; }
+
+.imo-envelop:before {
+  content: "\e945"; }
+
+.imo-pushpin:before {
+  content: "\e946"; }
+
+.imo-location:before {
+  content: "\e947"; }
+
+.imo-location2:before {
+  content: "\e948"; }
+
+.imo-compass:before {
+  content: "\e949"; }
+
+.imo-compass2:before {
+  content: "\e94a"; }
+
+.imo-map:before {
+  content: "\e94b"; }
+
+.imo-map2:before {
+  content: "\e94c"; }
+
+.imo-history:before {
+  content: "\e94d"; }
+
+.imo-clock:before {
+  content: "\e94e"; }
+
+.imo-clock2:before {
+  content: "\e94f"; }
+
+.imo-alarm:before {
+  content: "\e950"; }
+
+.imo-bell:before {
+  content: "\e951"; }
+
+.imo-stopwatch:before {
+  content: "\e952"; }
+
+.imo-calendar:before {
+  content: "\e953"; }
+
+.imo-printer:before {
+  content: "\e954"; }
+
+.imo-keyboard:before {
+  content: "\e955"; }
+
+.imo-display:before {
+  content: "\e956"; }
+
+.imo-laptop:before {
+  content: "\e957"; }
+
+.imo-mobile:before {
+  content: "\e958"; }
+
+.imo-mobile2:before {
+  content: "\e959"; }
+
+.imo-tablet:before {
+  content: "\e95a"; }
+
+.imo-tv:before {
+  content: "\e95b"; }
+
+.imo-drawer:before {
+  content: "\e95c"; }
+
+.imo-drawer2:before {
+  content: "\e95d"; }
+
+.imo-box-add:before {
+  content: "\e95e"; }
+
+.imo-box-remove:before {
+  content: "\e95f"; }
+
+.imo-download:before {
+  content: "\e960"; }
+
+.imo-upload:before {
+  content: "\e961"; }
+
+.imo-floppy-disk:before {
+  content: "\e962"; }
+
+.imo-drive:before {
+  content: "\e963"; }
+
+.imo-database:before {
+  content: "\e964"; }
+
+.imo-undo:before {
+  content: "\e965"; }
+
+.imo-redo:before {
+  content: "\e966"; }
+
+.imo-undo2:before {
+  content: "\e967"; }
+
+.imo-redo2:before {
+  content: "\e968"; }
+
+.imo-forward:before {
+  content: "\e969"; }
+
+.imo-reply:before {
+  content: "\e96a"; }
+
+.imo-bubble:before {
+  content: "\e96b"; }
+
+.imo-bubbles:before {
+  content: "\e96c"; }
+
+.imo-bubbles2:before {
+  content: "\e96d"; }
+
+.imo-bubble2:before {
+  content: "\e96e"; }
+
+.imo-bubbles3:before {
+  content: "\e96f"; }
+
+.imo-bubbles4:before {
+  content: "\e970"; }
+
+.imo-user:before {
+  content: "\e971"; }
+
+.imo-users:before {
+  content: "\e972"; }
+
+.imo-user-plus:before {
+  content: "\e973"; }
+
+.imo-user-minus:before {
+  content: "\e974"; }
+
+.imo-user-check:before {
+  content: "\e975"; }
+
+.imo-user-tie:before {
+  content: "\e976"; }
+
+.imo-quotes-left:before {
+  content: "\e977"; }
+
+.imo-quotes-right:before {
+  content: "\e978"; }
+
+.imo-hour-glass:before {
+  content: "\e979"; }
+
+.imo-spinner:before {
+  content: "\e97a"; }
+
+.imo-spinner2:before {
+  content: "\e97b"; }
+
+.imo-spinner3:before {
+  content: "\e97c"; }
+
+.imo-spinner4:before {
+  content: "\e97d"; }
+
+.imo-spinner5:before {
+  content: "\e97e"; }
+
+.imo-spinner6:before {
+  content: "\e97f"; }
+
+.imo-spinner7:before {
+  content: "\e980"; }
+
+.imo-spinner8:before {
+  content: "\e981"; }
+
+.imo-spinner9:before {
+  content: "\e982"; }
+
+.imo-spinner10:before {
+  content: "\e983"; }
+
+.imo-spinner11:before {
+  content: "\e984"; }
+
+.imo-binoculars:before {
+  content: "\e985"; }
+
+.imo-search:before {
+  content: "\e986"; }
+
+.imo-zoom-in:before {
+  content: "\e987"; }
+
+.imo-zoom-out:before {
+  content: "\e988"; }
+
+.imo-enlarge:before {
+  content: "\e989"; }
+
+.imo-shrink:before {
+  content: "\e98a"; }
+
+.imo-enlarge2:before {
+  content: "\e98b"; }
+
+.imo-shrink2:before {
+  content: "\e98c"; }
+
+.imo-key:before {
+  content: "\e98d"; }
+
+.imo-key2:before {
+  content: "\e98e"; }
+
+.imo-lock:before {
+  content: "\e98f"; }
+
+.imo-unlocked:before {
+  content: "\e990"; }
+
+.imo-wrench:before {
+  content: "\e991"; }
+
+.imo-equalizer:before {
+  content: "\e992"; }
+
+.imo-equalizer2:before {
+  content: "\e993"; }
+
+.imo-cog:before {
+  content: "\e994"; }
+
+.imo-cogs:before {
+  content: "\e995"; }
+
+.imo-hammer:before {
+  content: "\e996"; }
+
+.imo-magic-wand:before {
+  content: "\e997"; }
+
+.imo-aid-kit:before {
+  content: "\e998"; }
+
+.imo-bug:before {
+  content: "\e999"; }
+
+.imo-pie-chart:before {
+  content: "\e99a"; }
+
+.imo-stats-dots:before {
+  content: "\e99b"; }
+
+.imo-stats-bars:before {
+  content: "\e99c"; }
+
+.imo-stats-bars2:before {
+  content: "\e99d"; }
+
+.imo-trophy:before {
+  content: "\e99e"; }
+
+.imo-gift:before {
+  content: "\e99f"; }
+
+.imo-glass:before {
+  content: "\e9a0"; }
+
+.imo-glass2:before {
+  content: "\e9a1"; }
+
+.imo-mug:before {
+  content: "\e9a2"; }
+
+.imo-spoon-knife:before {
+  content: "\e9a3"; }
+
+.imo-leaf:before {
+  content: "\e9a4"; }
+
+.imo-rocket:before {
+  content: "\e9a5"; }
+
+.imo-meter:before {
+  content: "\e9a6"; }
+
+.imo-meter2:before {
+  content: "\e9a7"; }
+
+.imo-hammer2:before {
+  content: "\e9a8"; }
+
+.imo-fire:before {
+  content: "\e9a9"; }
+
+.imo-lab:before {
+  content: "\e9aa"; }
+
+.imo-magnet:before {
+  content: "\e9ab"; }
+
+.imo-bin:before {
+  content: "\e9ac"; }
+
+.imo-bin2:before {
+  content: "\e9ad"; }
+
+.imo-briefcase:before {
+  content: "\e9ae"; }
+
+.imo-airplane:before {
+  content: "\e9af"; }
+
+.imo-truck:before {
+  content: "\e9b0"; }
+
+.imo-road:before {
+  content: "\e9b1"; }
+
+.imo-accessibility:before {
+  content: "\e9b2"; }
+
+.imo-target:before {
+  content: "\e9b3"; }
+
+.imo-shield:before {
+  content: "\e9b4"; }
+
+.imo-power:before {
+  content: "\e9b5"; }
+
+.imo-switch:before {
+  content: "\e9b6"; }
+
+.imo-power-cord:before {
+  content: "\e9b7"; }
+
+.imo-clipboard:before {
+  content: "\e9b8"; }
+
+.imo-list-numbered:before {
+  content: "\e9b9"; }
+
+.imo-list:before {
+  content: "\e9ba"; }
+
+.imo-list2:before {
+  content: "\e9bb"; }
+
+.imo-tree:before {
+  content: "\e9bc"; }
+
+.imo-menu:before {
+  content: "\e9bd"; }
+
+.imo-menu2:before {
+  content: "\e9be"; }
+
+.imo-menu3:before {
+  content: "\e9bf"; }
+
+.imo-menu4:before {
+  content: "\e9c0"; }
+
+.imo-cloud:before {
+  content: "\e9c1"; }
+
+.imo-cloud-download:before {
+  content: "\e9c2"; }
+
+.imo-cloud-upload:before {
+  content: "\e9c3"; }
+
+.imo-cloud-check:before {
+  content: "\e9c4"; }
+
+.imo-download2:before {
+  content: "\e9c5"; }
+
+.imo-upload2:before {
+  content: "\e9c6"; }
+
+.imo-download3:before {
+  content: "\e9c7"; }
+
+.imo-upload3:before {
+  content: "\e9c8"; }
+
+.imo-sphere:before {
+  content: "\e9c9"; }
+
+.imo-earth:before {
+  content: "\e9ca"; }
+
+.imo-link:before {
+  content: "\e9cb"; }
+
+.imo-flag:before {
+  content: "\e9cc"; }
+
+.imo-attachment:before {
+  content: "\e9cd"; }
+
+.imo-eye:before {
+  content: "\e9ce"; }
+
+.imo-eye-plus:before {
+  content: "\e9cf"; }
+
+.imo-eye-minus:before {
+  content: "\e9d0"; }
+
+.imo-eye-blocked:before {
+  content: "\e9d1"; }
+
+.imo-bookmark:before {
+  content: "\e9d2"; }
+
+.imo-bookmarks:before {
+  content: "\e9d3"; }
+
+.imo-sun:before {
+  content: "\e9d4"; }
+
+.imo-contrast:before {
+  content: "\e9d5"; }
+
+.imo-brightness-contrast:before {
+  content: "\e9d6"; }
+
+.imo-star-empty:before {
+  content: "\e9d7"; }
+
+.imo-star-half:before {
+  content: "\e9d8"; }
+
+.imo-star-full:before {
+  content: "\e9d9"; }
+
+.imo-heart:before {
+  content: "\e9da"; }
+
+.imo-heart-broken:before {
+  content: "\e9db"; }
+
+.imo-man:before {
+  content: "\e9dc"; }
+
+.imo-woman:before {
+  content: "\e9dd"; }
+
+.imo-man-woman:before {
+  content: "\e9de"; }
+
+.imo-happy:before {
+  content: "\e9df"; }
+
+.imo-happy2:before {
+  content: "\e9e0"; }
+
+.imo-smile:before {
+  content: "\e9e1"; }
+
+.imo-smile2:before {
+  content: "\e9e2"; }
+
+.imo-tongue:before {
+  content: "\e9e3"; }
+
+.imo-tongue2:before {
+  content: "\e9e4"; }
+
+.imo-sad:before {
+  content: "\e9e5"; }
+
+.imo-sad2:before {
+  content: "\e9e6"; }
+
+.imo-wink:before {
+  content: "\e9e7"; }
+
+.imo-wink2:before {
+  content: "\e9e8"; }
+
+.imo-grin:before {
+  content: "\e9e9"; }
+
+.imo-grin2:before {
+  content: "\e9ea"; }
+
+.imo-cool:before {
+  content: "\e9eb"; }
+
+.imo-cool2:before {
+  content: "\e9ec"; }
+
+.imo-angry:before {
+  content: "\e9ed"; }
+
+.imo-angry2:before {
+  content: "\e9ee"; }
+
+.imo-evil:before {
+  content: "\e9ef"; }
+
+.imo-evil2:before {
+  content: "\e9f0"; }
+
+.imo-shocked:before {
+  content: "\e9f1"; }
+
+.imo-shocked2:before {
+  content: "\e9f2"; }
+
+.imo-baffled:before {
+  content: "\e9f3"; }
+
+.imo-baffled2:before {
+  content: "\e9f4"; }
+
+.imo-confused:before {
+  content: "\e9f5"; }
+
+.imo-confused2:before {
+  content: "\e9f6"; }
+
+.imo-neutral:before {
+  content: "\e9f7"; }
+
+.imo-neutral2:before {
+  content: "\e9f8"; }
+
+.imo-hipster:before {
+  content: "\e9f9"; }
+
+.imo-hipster2:before {
+  content: "\e9fa"; }
+
+.imo-wondering:before {
+  content: "\e9fb"; }
+
+.imo-wondering2:before {
+  content: "\e9fc"; }
+
+.imo-sleepy:before {
+  content: "\e9fd"; }
+
+.imo-sleepy2:before {
+  content: "\e9fe"; }
+
+.imo-frustrated:before {
+  content: "\e9ff"; }
+
+.imo-frustrated2:before {
+  content: "\ea00"; }
+
+.imo-crying:before {
+  content: "\ea01"; }
+
+.imo-crying2:before {
+  content: "\ea02"; }
+
+.imo-point-up:before {
+  content: "\ea03"; }
+
+.imo-point-right:before {
+  content: "\ea04"; }
+
+.imo-point-down:before {
+  content: "\ea05"; }
+
+.imo-point-left:before {
+  content: "\ea06"; }
+
+.imo-warning:before {
+  content: "\ea07"; }
+
+.imo-notification:before {
+  content: "\ea08"; }
+
+.imo-question:before {
+  content: "\ea09"; }
+
+.imo-plus:before {
+  content: "\ea0a"; }
+
+.imo-minus:before {
+  content: "\ea0b"; }
+
+.imo-info:before {
+  content: "\ea0c"; }
+
+.imo-cancel-circle:before {
+  content: "\ea0d"; }
+
+.imo-blocked:before {
+  content: "\ea0e"; }
+
+.imo-cross:before {
+  content: "\ea0f"; }
+
+.imo-checkmark:before {
+  content: "\ea10"; }
+
+.imo-checkmark2:before {
+  content: "\ea11"; }
+
+.imo-spell-check:before {
+  content: "\ea12"; }
+
+.imo-enter:before {
+  content: "\ea13"; }
+
+.imo-exit:before {
+  content: "\ea14"; }
+
+.imo-play2:before {
+  content: "\ea15"; }
+
+.imo-pause:before {
+  content: "\ea16"; }
+
+.imo-stop:before {
+  content: "\ea17"; }
+
+.imo-previous:before {
+  content: "\ea18"; }
+
+.imo-next:before {
+  content: "\ea19"; }
+
+.imo-backward:before {
+  content: "\ea1a"; }
+
+.imo-forward2:before {
+  content: "\ea1b"; }
+
+.imo-play3:before {
+  content: "\ea1c"; }
+
+.imo-pause2:before {
+  content: "\ea1d"; }
+
+.imo-stop2:before {
+  content: "\ea1e"; }
+
+.imo-backward2:before {
+  content: "\ea1f"; }
+
+.imo-forward3:before {
+  content: "\ea20"; }
+
+.imo-first:before {
+  content: "\ea21"; }
+
+.imo-last:before {
+  content: "\ea22"; }
+
+.imo-previous2:before {
+  content: "\ea23"; }
+
+.imo-next2:before {
+  content: "\ea24"; }
+
+.imo-eject:before {
+  content: "\ea25"; }
+
+.imo-volume-high:before {
+  content: "\ea26"; }
+
+.imo-volume-medium:before {
+  content: "\ea27"; }
+
+.imo-volume-low:before {
+  content: "\ea28"; }
+
+.imo-volume-mute:before {
+  content: "\ea29"; }
+
+.imo-volume-mute2:before {
+  content: "\ea2a"; }
+
+.imo-volume-increase:before {
+  content: "\ea2b"; }
+
+.imo-volume-decrease:before {
+  content: "\ea2c"; }
+
+.imo-loop:before {
+  content: "\ea2d"; }
+
+.imo-loop2:before {
+  content: "\ea2e"; }
+
+.imo-infinite:before {
+  content: "\ea2f"; }
+
+.imo-shuffle:before {
+  content: "\ea30"; }
+
+.imo-arrow-up-left:before {
+  content: "\ea31"; }
+
+.imo-arrow-up:before {
+  content: "\ea32"; }
+
+.imo-arrow-up-right:before {
+  content: "\ea33"; }
+
+.imo-arrow-right:before {
+  content: "\ea34"; }
+
+.imo-arrow-down-right:before {
+  content: "\ea35"; }
+
+.imo-arrow-down:before {
+  content: "\ea36"; }
+
+.imo-arrow-down-left:before {
+  content: "\ea37"; }
+
+.imo-arrow-left:before {
+  content: "\ea38"; }
+
+.imo-arrow-up-left2:before {
+  content: "\ea39"; }
+
+.imo-arrow-up2:before {
+  content: "\ea3a"; }
+
+.imo-arrow-up-right2:before {
+  content: "\ea3b"; }
+
+.imo-arrow-right2:before {
+  content: "\ea3c"; }
+
+.imo-arrow-down-right2:before {
+  content: "\ea3d"; }
+
+.imo-arrow-down2:before {
+  content: "\ea3e"; }
+
+.imo-arrow-down-left2:before {
+  content: "\ea3f"; }
+
+.imo-arrow-left2:before {
+  content: "\ea40"; }
+
+.imo-circle-up:before {
+  content: "\ea41"; }
+
+.imo-circle-right:before {
+  content: "\ea42"; }
+
+.imo-circle-down:before {
+  content: "\ea43"; }
+
+.imo-circle-left:before {
+  content: "\ea44"; }
+
+.imo-tab:before {
+  content: "\ea45"; }
+
+.imo-move-up:before {
+  content: "\ea46"; }
+
+.imo-move-down:before {
+  content: "\ea47"; }
+
+.imo-sort-alpha-asc:before {
+  content: "\ea48"; }
+
+.imo-sort-alpha-desc:before {
+  content: "\ea49"; }
+
+.imo-sort-numeric-asc:before {
+  content: "\ea4a"; }
+
+.imo-sort-numberic-desc:before {
+  content: "\ea4b"; }
+
+.imo-sort-amount-asc:before {
+  content: "\ea4c"; }
+
+.imo-sort-amount-desc:before {
+  content: "\ea4d"; }
+
+.imo-command:before {
+  content: "\ea4e"; }
+
+.imo-shift:before {
+  content: "\ea4f"; }
+
+.imo-ctrl:before {
+  content: "\ea50"; }
+
+.imo-opt:before {
+  content: "\ea51"; }
+
+.imo-checkbox-checked:before {
+  content: "\ea52"; }
+
+.imo-checkbox-unchecked:before {
+  content: "\ea53"; }
+
+.imo-radio-checked:before {
+  content: "\ea54"; }
+
+.imo-radio-checked2:before {
+  content: "\ea55"; }
+
+.imo-radio-unchecked:before {
+  content: "\ea56"; }
+
+.imo-crop:before {
+  content: "\ea57"; }
+
+.imo-make-group:before {
+  content: "\ea58"; }
+
+.imo-ungroup:before {
+  content: "\ea59"; }
+
+.imo-scissors:before {
+  content: "\ea5a"; }
+
+.imo-filter:before {
+  content: "\ea5b"; }
+
+.imo-font:before {
+  content: "\ea5c"; }
+
+.imo-ligature:before {
+  content: "\ea5d"; }
+
+.imo-ligature2:before {
+  content: "\ea5e"; }
+
+.imo-text-height:before {
+  content: "\ea5f"; }
+
+.imo-text-width:before {
+  content: "\ea60"; }
+
+.imo-font-size:before {
+  content: "\ea61"; }
+
+.imo-bold:before {
+  content: "\ea62"; }
+
+.imo-underline:before {
+  content: "\ea63"; }
+
+.imo-italic:before {
+  content: "\ea64"; }
+
+.imo-strikethrough:before {
+  content: "\ea65"; }
+
+.imo-omega:before {
+  content: "\ea66"; }
+
+.imo-sigma:before {
+  content: "\ea67"; }
+
+.imo-page-break:before {
+  content: "\ea68"; }
+
+.imo-superscript:before {
+  content: "\ea69"; }
+
+.imo-subscript:before {
+  content: "\ea6a"; }
+
+.imo-superscript2:before {
+  content: "\ea6b"; }
+
+.imo-subscript2:before {
+  content: "\ea6c"; }
+
+.imo-text-color:before {
+  content: "\ea6d"; }
+
+.imo-pagebreak:before {
+  content: "\ea6e"; }
+
+.imo-clear-formatting:before {
+  content: "\ea6f"; }
+
+.imo-table:before {
+  content: "\ea70"; }
+
+.imo-table2:before {
+  content: "\ea71"; }
+
+.imo-insert-template:before {
+  content: "\ea72"; }
+
+.imo-pilcrow:before {
+  content: "\ea73"; }
+
+.imo-ltr:before {
+  content: "\ea74"; }
+
+.imo-rtl:before {
+  content: "\ea75"; }
+
+.imo-section:before {
+  content: "\ea76"; }
+
+.imo-paragraph-left:before {
+  content: "\ea77"; }
+
+.imo-paragraph-center:before {
+  content: "\ea78"; }
+
+.imo-paragraph-right:before {
+  content: "\ea79"; }
+
+.imo-paragraph-justify:before {
+  content: "\ea7a"; }
+
+.imo-indent-increase:before {
+  content: "\ea7b"; }
+
+.imo-indent-decrease:before {
+  content: "\ea7c"; }
+
+.imo-share:before {
+  content: "\ea7d"; }
+
+.imo-new-tab:before {
+  content: "\ea7e"; }
+
+.imo-embed:before {
+  content: "\ea7f"; }
+
+.imo-embed2:before {
+  content: "\ea80"; }
+
+.imo-terminal:before {
+  content: "\ea81"; }
+
+.imo-share2:before {
+  content: "\ea82"; }
+
+.imo-mail:before {
+  content: "\ea83"; }
+
+.imo-mail2:before {
+  content: "\ea84"; }
+
+.imo-mail3:before {
+  content: "\ea85"; }
+
+.imo-mail4:before {
+  content: "\ea86"; }
+
+.imo-google:before {
+  content: "\ea87"; }
+
+.imo-google-plus:before {
+  content: "\ea88"; }
+
+.imo-google-plus2:before {
+  content: "\ea89"; }
+
+.imo-google-plus3:before {
+  content: "\ea8a"; }
+
+.imo-google-drive:before {
+  content: "\ea8b"; }
+
+.imo-facebook:before {
+  content: "\ea8c"; }
+
+.imo-facebook2:before {
+  content: "\ea8d"; }
+
+.imo-facebook3:before {
+  content: "\ea8e"; }
+
+.imo-ello:before {
+  content: "\ea8f"; }
+
+.imo-instagram:before {
+  content: "\ea90"; }
+
+.imo-twitter:before {
+  content: "\ea91"; }
+
+.imo-twitter2:before {
+  content: "\ea92"; }
+
+.imo-twitter3:before {
+  content: "\ea93"; }
+
+.imo-feed2:before {
+  content: "\ea94"; }
+
+.imo-feed3:before {
+  content: "\ea95"; }
+
+.imo-feed4:before {
+  content: "\ea96"; }
+
+.imo-youtube:before {
+  content: "\ea97"; }
+
+.imo-youtube2:before {
+  content: "\ea98"; }
+
+.imo-youtube3:before {
+  content: "\ea99"; }
+
+.imo-youtube4:before {
+  content: "\ea9a"; }
+
+.imo-twitch:before {
+  content: "\ea9b"; }
+
+.imo-vimeo:before {
+  content: "\ea9c"; }
+
+.imo-vimeo2:before {
+  content: "\ea9d"; }
+
+.imo-vimeo3:before {
+  content: "\ea9e"; }
+
+.imo-lanyrd:before {
+  content: "\ea9f"; }
+
+.imo-flickr:before {
+  content: "\eaa0"; }
+
+.imo-flickr2:before {
+  content: "\eaa1"; }
+
+.imo-flickr3:before {
+  content: "\eaa2"; }
+
+.imo-flickr4:before {
+  content: "\eaa3"; }
+
+.imo-picassa:before {
+  content: "\eaa4"; }
+
+.imo-picassa2:before {
+  content: "\eaa5"; }
+
+.imo-dribbble:before {
+  content: "\eaa6"; }
+
+.imo-dribbble2:before {
+  content: "\eaa7"; }
+
+.imo-dribbble3:before {
+  content: "\eaa8"; }
+
+.imo-forrst:before {
+  content: "\eaa9"; }
+
+.imo-forrst2:before {
+  content: "\eaaa"; }
+
+.imo-deviantart:before {
+  content: "\eaab"; }
+
+.imo-deviantart2:before {
+  content: "\eaac"; }
+
+.imo-steam:before {
+  content: "\eaad"; }
+
+.imo-steam2:before {
+  content: "\eaae"; }
+
+.imo-dropbox:before {
+  content: "\eaaf"; }
+
+.imo-onedrive:before {
+  content: "\eab0"; }
+
+.imo-github:before {
+  content: "\eab1"; }
+
+.imo-github2:before {
+  content: "\eab2"; }
+
+.imo-github3:before {
+  content: "\eab3"; }
+
+.imo-github4:before {
+  content: "\eab4"; }
+
+.imo-github5:before {
+  content: "\eab5"; }
+
+.imo-wordpress:before {
+  content: "\eab6"; }
+
+.imo-wordpress2:before {
+  content: "\eab7"; }
+
+.imo-joomla:before {
+  content: "\eab8"; }
+
+.imo-blogger:before {
+  content: "\eab9"; }
+
+.imo-blogger2:before {
+  content: "\eaba"; }
+
+.imo-tumblr:before {
+  content: "\eabb"; }
+
+.imo-tumblr2:before {
+  content: "\eabc"; }
+
+.imo-yahoo:before {
+  content: "\eabd"; }
+
+.imo-tux:before {
+  content: "\eabe"; }
+
+.imo-apple:before {
+  content: "\eabf"; }
+
+.imo-finder:before {
+  content: "\eac0"; }
+
+.imo-android:before {
+  content: "\eac1"; }
+
+.imo-windows:before {
+  content: "\eac2"; }
+
+.imo-windows8:before {
+  content: "\eac3"; }
+
+.imo-soundcloud:before {
+  content: "\eac4"; }
+
+.imo-soundcloud2:before {
+  content: "\eac5"; }
+
+.imo-skype:before {
+  content: "\eac6"; }
+
+.imo-reddit:before {
+  content: "\eac7"; }
+
+.imo-linkedin:before {
+  content: "\eac8"; }
+
+.imo-linkedin2:before {
+  content: "\eac9"; }
+
+.imo-lastfm:before {
+  content: "\eaca"; }
+
+.imo-lastfm2:before {
+  content: "\eacb"; }
+
+.imo-delicious:before {
+  content: "\eacc"; }
+
+.imo-stumbleupon:before {
+  content: "\eacd"; }
+
+.imo-stumbleupon2:before {
+  content: "\eace"; }
+
+.imo-stackoverflow:before {
+  content: "\eacf"; }
+
+.imo-pinterest:before {
+  content: "\ead0"; }
+
+.imo-pinterest2:before {
+  content: "\ead1"; }
+
+.imo-xing:before {
+  content: "\ead2"; }
+
+.imo-xing2:before {
+  content: "\ead3"; }
+
+.imo-flattr:before {
+  content: "\ead4"; }
+
+.imo-foursquare:before {
+  content: "\ead5"; }
+
+.imo-paypal:before {
+  content: "\ead6"; }
+
+.imo-paypal2:before {
+  content: "\ead7"; }
+
+.imo-paypal3:before {
+  content: "\ead8"; }
+
+.imo-yelp:before {
+  content: "\ead9"; }
+
+.imo-file-pdf:before {
+  content: "\eada"; }
+
+.imo-file-openoffice:before {
+  content: "\eadb"; }
+
+.imo-file-word:before {
+  content: "\eadc"; }
+
+.imo-file-excel:before {
+  content: "\eadd"; }
+
+.imo-libreoffice:before {
+  content: "\eade"; }
+
+.imo-html5:before {
+  content: "\eadf"; }
+
+.imo-html52:before {
+  content: "\eae0"; }
+
+.imo-css3:before {
+  content: "\eae1"; }
+
+.imo-git:before {
+  content: "\eae2"; }
+
+.imo-svg:before {
+  content: "\eae3"; }
+
+.imo-codepen:before {
+  content: "\eae4"; }
+
+.imo-chrome:before {
+  content: "\eae5"; }
+
+.imo-firefox:before {
+  content: "\eae6"; }
+
+.imo-IE:before {
+  content: "\eae7"; }
+
+.imo-opera:before {
+  content: "\eae8"; }
+
+.imo-safari:before {
+  content: "\eae9"; }
+
+.imo-IcoMoon:before {
+  content: "\eaea"; }

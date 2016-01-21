@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-ttf2eot": "^1.1.1",
+    "gulp-ttf2woff": "^1.1.0",
+    "gulp-ttf2woff2": "^2.0.2",
+    "run-sequence": "^1.1.5",
+  }
+}

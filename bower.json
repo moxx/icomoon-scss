@@ -1,0 +1,34 @@
+{
+  "name": "icomoon-scss",
+  "authors": [
+    "Moxx <mario@mookey.at>"
+  ],
+  "description": "icomoon-scss is a Scss version of Icomoon Font Icons, ready to drop right into your Scss projects. Variables overrides possible, default prefix is imo (class=\\\"imo imo-arrow-right\\\")",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "icomoon",
+    "iconmoon",
+    "icomoon-sass",
+    "sass",
+    "icomoon-scss",
+    "scss",
+    "iconmoon-scss",
+    "iconmoon-sass",
+    "icomoon-css",
+    "icomoon-fontface",
+    "iconfont"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/moxx/icomoon-scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "IcoMoon-Free": "git://github.com/Keyamoon/IcoMoon-Free#master"
+  }
+}
