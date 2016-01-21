@@ -1,492 +1,1759 @@
+.#{$imo-css-prefix}-home:before {
+    content: "\e900";
+}
+.#{$imo-css-prefix}-home2:before {
+    content: "\e901";
+}
+.#{$imo-css-prefix}-home3:before {
+    content: "\e902";
+}
+.#{$imo-css-prefix}-office:before {
+    content: "\e903";
+}
+.#{$imo-css-prefix}-newspaper:before {
+    content: "\e904";
+}
+.#{$imo-css-prefix}-pencil:before {
+    content: "\e905";
+}
+.#{$imo-css-prefix}-pencil2:before {
+    content: "\e906";
+}
+.#{$imo-css-prefix}-quill:before {
+    content: "\e907";
+}
+.#{$imo-css-prefix}-pen:before {
+    content: "\e908";
+}
+.#{$imo-css-prefix}-blog:before {
+    content: "\e909";
+}
+.#{$imo-css-prefix}-eyedropper:before {
+    content: "\e90a";
+}
+.#{$imo-css-prefix}-droplet:before {
+    content: "\e90b";
+}
+.#{$imo-css-prefix}-paint-format:before {
+    content: "\e90c";
+}
+.#{$imo-css-prefix}-image:before {
+    content: "\e90d";
+}
+.#{$imo-css-prefix}-images:before {
+    content: "\e90e";
+}
+.#{$imo-css-prefix}-camera:before {
+    content: "\e90f";
+}
+.#{$imo-css-prefix}-headphones:before {
+    content: "\e910";
+}
+.#{$imo-css-prefix}-music:before {
+    content: "\e911";
+}
+.#{$imo-css-prefix}-play:before {
+    content: "\e912";
+}
+.#{$imo-css-prefix}-film:before {
+    content: "\e913";
+}
+.#{$imo-css-prefix}-video-camera:before {
+    content: "\e914";
+}
+.#{$imo-css-prefix}-dice:before {
+    content: "\e915";
+}
+.#{$imo-css-prefix}-pacman:before {
+    content: "\e916";
+}
+.#{$imo-css-prefix}-spades:before {
+    content: "\e917";
+}
+.#{$imo-css-prefix}-clubs:before {
+    content: "\e918";
+}
+.#{$imo-css-prefix}-diamonds:before {
+    content: "\e919";
+}
+.#{$imo-css-prefix}-bullhorn:before {
+    content: "\e91a";
+}
+.#{$imo-css-prefix}-connection:before {
+    content: "\e91b";
+}
+.#{$imo-css-prefix}-podcast:before {
+    content: "\e91c";
+}
+.#{$imo-css-prefix}-feed:before {
+    content: "\e91d";
+}
+.#{$imo-css-prefix}-mic:before {
+    content: "\e91e";
+}
+.#{$imo-css-prefix}-book:before {
+    content: "\e91f";
+}
+.#{$imo-css-prefix}-books:before {
+    content: "\e920";
+}
+.#{$imo-css-prefix}-library:before {
+    content: "\e921";
+}
+.#{$imo-css-prefix}-file-text:before {
+    content: "\e922";
+}
+.#{$imo-css-prefix}-profile:before {
+    content: "\e923";
+}
+.#{$imo-css-prefix}-file-empty:before {
+    content: "\e924";
+}
+.#{$imo-css-prefix}-files-empty:before {
+    content: "\e925";
+}
+.#{$imo-css-prefix}-file-text2:before {
+    content: "\e926";
+}
+.#{$imo-css-prefix}-file-picture:before {
+    content: "\e927";
+}
+.#{$imo-css-prefix}-file-music:before {
+    content: "\e928";
+}
+.#{$imo-css-prefix}-file-play:before {
+    content: "\e929";
+}
+.#{$imo-css-prefix}-file-video:before {
+    content: "\e92a";
+}
+.#{$imo-css-prefix}-file-zip:before {
+    content: "\e92b";
+}
+.#{$imo-css-prefix}-copy:before {
+    content: "\e92c";
+}
+.#{$imo-css-prefix}-paste:before {
+    content: "\e92d";
+}
+.#{$imo-css-prefix}-stack:before {
+    content: "\e92e";
+}
+.#{$imo-css-prefix}-folder:before {
+    content: "\e92f";
+}
+.#{$imo-css-prefix}-folder-open:before {
+    content: "\e930";
+}
+.#{$imo-css-prefix}-folder-plus:before {
+    content: "\e931";
+}
+.#{$imo-css-prefix}-folder-minus:before {
+    content: "\e932";
+}
+.#{$imo-css-prefix}-folder-download:before {
+    content: "\e933";
+}
+.#{$imo-css-prefix}-folder-upload:before {
+    content: "\e934";
+}
+.#{$imo-css-prefix}-price-tag:before {
+    content: "\e935";
+}
+.#{$imo-css-prefix}-price-tags:before {
+    content: "\e936";
+}
+.#{$imo-css-prefix}-barcode:before {
+    content: "\e937";
+}
+.#{$imo-css-prefix}-qrcode:before {
+    content: "\e938";
+}
+.#{$imo-css-prefix}-ticket:before {
+    content: "\e939";
+}
+.#{$imo-css-prefix}-cart:before {
+    content: "\e93a";
+}
+.#{$imo-css-prefix}-coin-dollar:before {
+    content: "\e93b";
+}
+.#{$imo-css-prefix}-coin-euro:before {
+    content: "\e93c";
+}
+.#{$imo-css-prefix}-coin-pound:before {
+    content: "\e93d";
+}
+.#{$imo-css-prefix}-coin-yen:before {
+    content: "\e93e";
+}
+.#{$imo-css-prefix}-credit-card:before {
+    content: "\e93f";
+}
+.#{$imo-css-prefix}-calculator:before {
+    content: "\e940";
+}
+.#{$imo-css-prefix}-lifebuoy:before {
+    content: "\e941";
+}
+.#{$imo-css-prefix}-phone:before {
+    content: "\e942";
+}
+.#{$imo-css-prefix}-phone-hang-up:before {
+    content: "\e943";
+}
+.#{$imo-css-prefix}-address-book:before {
+    content: "\e944";
+}
+.#{$imo-css-prefix}-envelop:before {
+    content: "\e945";
+}
+.#{$imo-css-prefix}-pushpin:before {
+    content: "\e946";
+}
+.#{$imo-css-prefix}-location:before {
+    content: "\e947";
+}
+.#{$imo-css-prefix}-location2:before {
+    content: "\e948";
+}
+.#{$imo-css-prefix}-compass:before {
+    content: "\e949";
+}
+.#{$imo-css-prefix}-compass2:before {
+    content: "\e94a";
+}
+.#{$imo-css-prefix}-map:before {
+    content: "\e94b";
+}
+.#{$imo-css-prefix}-map2:before {
+    content: "\e94c";
+}
+.#{$imo-css-prefix}-history:before {
+    content: "\e94d";
+}
+.#{$imo-css-prefix}-clock:before {
+    content: "\e94e";
+}
+.#{$imo-css-prefix}-clock2:before {
+    content: "\e94f";
+}
+.#{$imo-css-prefix}-alarm:before {
+    content: "\e950";
+}
+.#{$imo-css-prefix}-bell:before {
+    content: "\e951";
+}
+.#{$imo-css-prefix}-stopwatch:before {
+    content: "\e952";
+}
+.#{$imo-css-prefix}-calendar:before {
+    content: "\e953";
+}
+.#{$imo-css-prefix}-printer:before {
+    content: "\e954";
+}
+.#{$imo-css-prefix}-keyboard:before {
+    content: "\e955";
+}
+.#{$imo-css-prefix}-display:before {
+    content: "\e956";
+}
+.#{$imo-css-prefix}-laptop:before {
+    content: "\e957";
+}
+.#{$imo-css-prefix}-mobile:before {
+    content: "\e958";
+}
+.#{$imo-css-prefix}-mobile2:before {
+    content: "\e959";
+}
+.#{$imo-css-prefix}-tablet:before {
+    content: "\e95a";
+}
+.#{$imo-css-prefix}-tv:before {
+    content: "\e95b";
+}
+.#{$imo-css-prefix}-drawer:before {
+    content: "\e95c";
+}
+.#{$imo-css-prefix}-drawer2:before {
+    content: "\e95d";
+}
+.#{$imo-css-prefix}-box-add:before {
+    content: "\e95e";
+}
+.#{$imo-css-prefix}-box-remove:before {
+    content: "\e95f";
+}
+.#{$imo-css-prefix}-download:before {
+    content: "\e960";
+}
+.#{$imo-css-prefix}-upload:before {
+    content: "\e961";
+}
+.#{$imo-css-prefix}-floppy-disk:before {
+    content: "\e962";
+}
+.#{$imo-css-prefix}-drive:before {
+    content: "\e963";
+}
+.#{$imo-css-prefix}-database:before {
+    content: "\e964";
+}
+.#{$imo-css-prefix}-undo:before {
+    content: "\e965";
+}
+.#{$imo-css-prefix}-redo:before {
+    content: "\e966";
+}
+.#{$imo-css-prefix}-undo2:before {
+    content: "\e967";
+}
+.#{$imo-css-prefix}-redo2:before {
+    content: "\e968";
+}
+.#{$imo-css-prefix}-forward:before {
+    content: "\e969";
+}
+.#{$imo-css-prefix}-reply:before {
+    content: "\e96a";
+}
+.#{$imo-css-prefix}-bubble:before {
+    content: "\e96b";
+}
+.#{$imo-css-prefix}-bubbles:before {
+    content: "\e96c";
+}
+.#{$imo-css-prefix}-bubbles2:before {
+    content: "\e96d";
+}
+.#{$imo-css-prefix}-bubble2:before {
+    content: "\e96e";
+}
+.#{$imo-css-prefix}-bubbles3:before {
+    content: "\e96f";
+}
+.#{$imo-css-prefix}-bubbles4:before {
+    content: "\e970";
+}
+.#{$imo-css-prefix}-user:before {
+    content: "\e971";
+}
+.#{$imo-css-prefix}-users:before {
+    content: "\e972";
+}
+.#{$imo-css-prefix}-user-plus:before {
+    content: "\e973";
+}
+.#{$imo-css-prefix}-user-minus:before {
+    content: "\e974";
+}
+.#{$imo-css-prefix}-user-check:before {
+    content: "\e975";
+}
+.#{$imo-css-prefix}-user-tie:before {
+    content: "\e976";
+}
+.#{$imo-css-prefix}-quotes-left:before {
+    content: "\e977";
+}
+.#{$imo-css-prefix}-quotes-right:before {
+    content: "\e978";
+}
+.#{$imo-css-prefix}-hour-glass:before {
+    content: "\e979";
+}
+.#{$imo-css-prefix}-spinner:before {
+    content: "\e97a";
+}
+.#{$imo-css-prefix}-spinner2:before {
+    content: "\e97b";
+}
+.#{$imo-css-prefix}-spinner3:before {
+    content: "\e97c";
+}
+.#{$imo-css-prefix}-spinner4:before {
+    content: "\e97d";
+}
+.#{$imo-css-prefix}-spinner5:before {
+    content: "\e97e";
+}
+.#{$imo-css-prefix}-spinner6:before {
+    content: "\e97f";
+}
+.#{$imo-css-prefix}-spinner7:before {
+    content: "\e980";
+}
+.#{$imo-css-prefix}-spinner8:before {
+    content: "\e981";
+}
+.#{$imo-css-prefix}-spinner9:before {
+    content: "\e982";
+}
+.#{$imo-css-prefix}-spinner10:before {
+    content: "\e983";
+}
+.#{$imo-css-prefix}-spinner11:before {
+    content: "\e984";
+}
+.#{$imo-css-prefix}-binoculars:before {
+    content: "\e985";
+}
+.#{$imo-css-prefix}-search:before {
+    content: "\e986";
+}
+.#{$imo-css-prefix}-zoom-in:before {
+    content: "\e987";
+}
+.#{$imo-css-prefix}-zoom-out:before {
+    content: "\e988";
+}
+.#{$imo-css-prefix}-enlarge:before {
+    content: "\e989";
+}
+.#{$imo-css-prefix}-shrink:before {
+    content: "\e98a";
+}
+.#{$imo-css-prefix}-enlarge2:before {
+    content: "\e98b";
+}
+.#{$imo-css-prefix}-shrink2:before {
+    content: "\e98c";
+}
+.#{$imo-css-prefix}-key:before {
+    content: "\e98d";
+}
+.#{$imo-css-prefix}-key2:before {
+    content: "\e98e";
+}
+.#{$imo-css-prefix}-lock:before {
+    content: "\e98f";
+}
+.#{$imo-css-prefix}-unlocked:before {
+    content: "\e990";
+}
+.#{$imo-css-prefix}-wrench:before {
+    content: "\e991";
+}
+.#{$imo-css-prefix}-equalizer:before {
+    content: "\e992";
+}
+.#{$imo-css-prefix}-equalizer2:before {
+    content: "\e993";
+}
+.#{$imo-css-prefix}-cog:before {
+    content: "\e994";
+}
+.#{$imo-css-prefix}-cogs:before {
+    content: "\e995";
+}
+.#{$imo-css-prefix}-hammer:before {
+    content: "\e996";
+}
+.#{$imo-css-prefix}-magic-wand:before {
+    content: "\e997";
+}
+.#{$imo-css-prefix}-aid-kit:before {
+    content: "\e998";
+}
+.#{$imo-css-prefix}-bug:before {
+    content: "\e999";
+}
+.#{$imo-css-prefix}-pie-chart:before {
+    content: "\e99a";
+}
+.#{$imo-css-prefix}-stats-dots:before {
+    content: "\e99b";
+}
+.#{$imo-css-prefix}-stats-bars:before {
+    content: "\e99c";
+}
+.#{$imo-css-prefix}-stats-bars2:before {
+    content: "\e99d";
+}
+.#{$imo-css-prefix}-trophy:before {
+    content: "\e99e";
+}
+.#{$imo-css-prefix}-gift:before {
+    content: "\e99f";
+}
+.#{$imo-css-prefix}-glass:before {
+    content: "\e9a0";
+}
+.#{$imo-css-prefix}-glass2:before {
+    content: "\e9a1";
+}
+.#{$imo-css-prefix}-mug:before {
+    content: "\e9a2";
+}
+.#{$imo-css-prefix}-spoon-knife:before {
+    content: "\e9a3";
+}
+.#{$imo-css-prefix}-leaf:before {
+    content: "\e9a4";
+}
+.#{$imo-css-prefix}-rocket:before {
+    content: "\e9a5";
+}
+.#{$imo-css-prefix}-meter:before {
+    content: "\e9a6";
+}
+.#{$imo-css-prefix}-meter2:before {
+    content: "\e9a7";
+}
+.#{$imo-css-prefix}-hammer2:before {
+    content: "\e9a8";
+}
+.#{$imo-css-prefix}-fire:before {
+    content: "\e9a9";
+}
+.#{$imo-css-prefix}-lab:before {
+    content: "\e9aa";
+}
+.#{$imo-css-prefix}-magnet:before {
+    content: "\e9ab";
+}
+.#{$imo-css-prefix}-bin:before {
+    content: "\e9ac";
+}
+.#{$imo-css-prefix}-bin2:before {
+    content: "\e9ad";
+}
+.#{$imo-css-prefix}-briefcase:before {
+    content: "\e9ae";
+}
+.#{$imo-css-prefix}-airplane:before {
+    content: "\e9af";
+}
+.#{$imo-css-prefix}-truck:before {
+    content: "\e9b0";
+}
+.#{$imo-css-prefix}-road:before {
+    content: "\e9b1";
+}
+.#{$imo-css-prefix}-accessibility:before {
+    content: "\e9b2";
+}
+.#{$imo-css-prefix}-target:before {
+    content: "\e9b3";
+}
+.#{$imo-css-prefix}-shield:before {
+    content: "\e9b4";
+}
+.#{$imo-css-prefix}-power:before {
+    content: "\e9b5";
+}
+.#{$imo-css-prefix}-switch:before {
+    content: "\e9b6";
+}
+.#{$imo-css-prefix}-power-cord:before {
+    content: "\e9b7";
+}
+.#{$imo-css-prefix}-clipboard:before {
+    content: "\e9b8";
+}
+.#{$imo-css-prefix}-list-numbered:before {
+    content: "\e9b9";
+}
+.#{$imo-css-prefix}-list:before {
+    content: "\e9ba";
+}
+.#{$imo-css-prefix}-list2:before {
+    content: "\e9bb";
+}
+.#{$imo-css-prefix}-tree:before {
+    content: "\e9bc";
+}
+.#{$imo-css-prefix}-menu:before {
+    content: "\e9bd";
+}
+.#{$imo-css-prefix}-menu2:before {
+    content: "\e9be";
+}
+.#{$imo-css-prefix}-menu3:before {
+    content: "\e9bf";
+}
+.#{$imo-css-prefix}-menu4:before {
+    content: "\e9c0";
+}
+.#{$imo-css-prefix}-cloud:before {
+    content: "\e9c1";
+}
+.#{$imo-css-prefix}-cloud-download:before {
+    content: "\e9c2";
+}
+.#{$imo-css-prefix}-cloud-upload:before {
+    content: "\e9c3";
+}
+.#{$imo-css-prefix}-cloud-check:before {
+    content: "\e9c4";
+}
+.#{$imo-css-prefix}-download2:before {
+    content: "\e9c5";
+}
+.#{$imo-css-prefix}-upload2:before {
+    content: "\e9c6";
+}
+.#{$imo-css-prefix}-download3:before {
+    content: "\e9c7";
+}
+.#{$imo-css-prefix}-upload3:before {
+    content: "\e9c8";
+}
+.#{$imo-css-prefix}-sphere:before {
+    content: "\e9c9";
+}
+.#{$imo-css-prefix}-earth:before {
+    content: "\e9ca";
+}
+.#{$imo-css-prefix}-link:before {
+    content: "\e9cb";
+}
+.#{$imo-css-prefix}-flag:before {
+    content: "\e9cc";
+}
+.#{$imo-css-prefix}-attachment:before {
+    content: "\e9cd";
+}
+.#{$imo-css-prefix}-eye:before {
+    content: "\e9ce";
+}
+.#{$imo-css-prefix}-eye-plus:before {
+    content: "\e9cf";
+}
+.#{$imo-css-prefix}-eye-minus:before {
+    content: "\e9d0";
+}
+.#{$imo-css-prefix}-eye-blocked:before {
+    content: "\e9d1";
+}
+.#{$imo-css-prefix}-bookmark:before {
+    content: "\e9d2";
+}
+.#{$imo-css-prefix}-bookmarks:before {
+    content: "\e9d3";
+}
+.#{$imo-css-prefix}-sun:before {
+    content: "\e9d4";
+}
+.#{$imo-css-prefix}-contrast:before {
+    content: "\e9d5";
+}
+.#{$imo-css-prefix}-brightness-contrast:before {
+    content: "\e9d6";
+}
+.#{$imo-css-prefix}-star-empty:before {
+    content: "\e9d7";
+}
+.#{$imo-css-prefix}-star-half:before {
+    content: "\e9d8";
+}
+.#{$imo-css-prefix}-star-full:before {
+    content: "\e9d9";
+}
+.#{$imo-css-prefix}-heart:before {
+    content: "\e9da";
+}
+.#{$imo-css-prefix}-heart-broken:before {
+    content: "\e9db";
+}
+.#{$imo-css-prefix}-man:before {
+    content: "\e9dc";
+}
+.#{$imo-css-prefix}-woman:before {
+    content: "\e9dd";
+}
+.#{$imo-css-prefix}-man-woman:before {
+    content: "\e9de";
+}
+.#{$imo-css-prefix}-happy:before {
+    content: "\e9df";
+}
+.#{$imo-css-prefix}-happy2:before {
+    content: "\e9e0";
+}
+.#{$imo-css-prefix}-smile:before {
+    content: "\e9e1";
+}
+.#{$imo-css-prefix}-smile2:before {
+    content: "\e9e2";
+}
+.#{$imo-css-prefix}-tongue:before {
+    content: "\e9e3";
+}
+.#{$imo-css-prefix}-tongue2:before {
+    content: "\e9e4";
+}
+.#{$imo-css-prefix}-sad:before {
+    content: "\e9e5";
+}
+.#{$imo-css-prefix}-sad2:before {
+    content: "\e9e6";
+}
+.#{$imo-css-prefix}-wink:before {
+    content: "\e9e7";
+}
+.#{$imo-css-prefix}-wink2:before {
+    content: "\e9e8";
+}
+.#{$imo-css-prefix}-grin:before {
+    content: "\e9e9";
+}
+.#{$imo-css-prefix}-grin2:before {
+    content: "\e9ea";
+}
+.#{$imo-css-prefix}-cool:before {
+    content: "\e9eb";
+}
+.#{$imo-css-prefix}-cool2:before {
+    content: "\e9ec";
+}
+.#{$imo-css-prefix}-angry:before {
+    content: "\e9ed";
+}
+.#{$imo-css-prefix}-angry2:before {
+    content: "\e9ee";
+}
+.#{$imo-css-prefix}-evil:before {
+    content: "\e9ef";
+}
+.#{$imo-css-prefix}-evil2:before {
+    content: "\e9f0";
+}
+.#{$imo-css-prefix}-shocked:before {
+    content: "\e9f1";
+}
+.#{$imo-css-prefix}-shocked2:before {
+    content: "\e9f2";
+}
+.#{$imo-css-prefix}-baffled:before {
+    content: "\e9f3";
+}
+.#{$imo-css-prefix}-baffled2:before {
+    content: "\e9f4";
+}
+.#{$imo-css-prefix}-confused:before {
+    content: "\e9f5";
+}
+.#{$imo-css-prefix}-confused2:before {
+    content: "\e9f6";
+}
+.#{$imo-css-prefix}-neutral:before {
+    content: "\e9f7";
+}
+.#{$imo-css-prefix}-neutral2:before {
+    content: "\e9f8";
+}
+.#{$imo-css-prefix}-hipster:before {
+    content: "\e9f9";
+}
+.#{$imo-css-prefix}-hipster2:before {
+    content: "\e9fa";
+}
+.#{$imo-css-prefix}-wondering:before {
+    content: "\e9fb";
+}
+.#{$imo-css-prefix}-wondering2:before {
+    content: "\e9fc";
+}
+.#{$imo-css-prefix}-sleepy:before {
+    content: "\e9fd";
+}
+.#{$imo-css-prefix}-sleepy2:before {
+    content: "\e9fe";
+}
+.#{$imo-css-prefix}-frustrated:before {
+    content: "\e9ff";
+}
+.#{$imo-css-prefix}-frustrated2:before {
+    content: "\ea00";
+}
+.#{$imo-css-prefix}-crying:before {
+    content: "\ea01";
+}
+.#{$imo-css-prefix}-crying2:before {
+    content: "\ea02";
+}
+.#{$imo-css-prefix}-point-up:before {
+    content: "\ea03";
+}
+.#{$imo-css-prefix}-point-right:before {
+    content: "\ea04";
+}
+.#{$imo-css-prefix}-point-down:before {
+    content: "\ea05";
+}
+.#{$imo-css-prefix}-point-left:before {
+    content: "\ea06";
+}
+.#{$imo-css-prefix}-warning:before {
+    content: "\ea07";
+}
+.#{$imo-css-prefix}-notification:before {
+    content: "\ea08";
+}
+.#{$imo-css-prefix}-question:before {
+    content: "\ea09";
+}
+.#{$imo-css-prefix}-plus:before {
+    content: "\ea0a";
+}
+.#{$imo-css-prefix}-minus:before {
+    content: "\ea0b";
+}
+.#{$imo-css-prefix}-info:before {
+    content: "\ea0c";
+}
+.#{$imo-css-prefix}-cancel-circle:before {
+    content: "\ea0d";
+}
+.#{$imo-css-prefix}-blocked:before {
+    content: "\ea0e";
+}
+.#{$imo-css-prefix}-cross:before {
+    content: "\ea0f";
+}
+.#{$imo-css-prefix}-checkmark:before {
+    content: "\ea10";
+}
+.#{$imo-css-prefix}-checkmark2:before {
+    content: "\ea11";
+}
+.#{$imo-css-prefix}-spell-check:before {
+    content: "\ea12";
+}
+.#{$imo-css-prefix}-enter:before {
+    content: "\ea13";
+}
+.#{$imo-css-prefix}-exit:before {
+    content: "\ea14";
+}
+.#{$imo-css-prefix}-play2:before {
+    content: "\ea15";
+}
+.#{$imo-css-prefix}-pause:before {
+    content: "\ea16";
+}
+.#{$imo-css-prefix}-stop:before {
+    content: "\ea17";
+}
+.#{$imo-css-prefix}-previous:before {
+    content: "\ea18";
+}
+.#{$imo-css-prefix}-next:before {
+    content: "\ea19";
+}
+.#{$imo-css-prefix}-backward:before {
+    content: "\ea1a";
+}
+.#{$imo-css-prefix}-forward2:before {
+    content: "\ea1b";
+}
+.#{$imo-css-prefix}-play3:before {
+    content: "\ea1c";
+}
+.#{$imo-css-prefix}-pause2:before {
+    content: "\ea1d";
+}
+.#{$imo-css-prefix}-stop2:before {
+    content: "\ea1e";
+}
+.#{$imo-css-prefix}-backward2:before {
+    content: "\ea1f";
+}
+.#{$imo-css-prefix}-forward3:before {
+    content: "\ea20";
+}
+.#{$imo-css-prefix}-first:before {
+    content: "\ea21";
+}
+.#{$imo-css-prefix}-last:before {
+    content: "\ea22";
+}
+.#{$imo-css-prefix}-previous2:before {
+    content: "\ea23";
+}
+.#{$imo-css-prefix}-next2:before {
+    content: "\ea24";
+}
+.#{$imo-css-prefix}-eject:before {
+    content: "\ea25";
+}
+.#{$imo-css-prefix}-volume-high:before {
+    content: "\ea26";
+}
+.#{$imo-css-prefix}-volume-medium:before {
+    content: "\ea27";
+}
+.#{$imo-css-prefix}-volume-low:before {
+    content: "\ea28";
+}
+.#{$imo-css-prefix}-volume-mute:before {
+    content: "\ea29";
+}
+.#{$imo-css-prefix}-volume-mute2:before {
+    content: "\ea2a";
+}
+.#{$imo-css-prefix}-volume-increase:before {
+    content: "\ea2b";
+}
+.#{$imo-css-prefix}-volume-decrease:before {
+    content: "\ea2c";
+}
+.#{$imo-css-prefix}-loop:before {
+    content: "\ea2d";
+}
+.#{$imo-css-prefix}-loop2:before {
+    content: "\ea2e";
+}
+.#{$imo-css-prefix}-infinite:before {
+    content: "\ea2f";
+}
+.#{$imo-css-prefix}-shuffle:before {
+    content: "\ea30";
+}
+.#{$imo-css-prefix}-arrow-up-left:before {
+    content: "\ea31";
+}
+.#{$imo-css-prefix}-arrow-up:before {
+    content: "\ea32";
+}
+.#{$imo-css-prefix}-arrow-up-right:before {
+    content: "\ea33";
+}
+.#{$imo-css-prefix}-arrow-right:before {
+    content: "\ea34";
+}
+.#{$imo-css-prefix}-arrow-down-right:before {
+    content: "\ea35";
+}
+.#{$imo-css-prefix}-arrow-down:before {
+    content: "\ea36";
+}
+.#{$imo-css-prefix}-arrow-down-left:before {
+    content: "\ea37";
+}
+.#{$imo-css-prefix}-arrow-left:before {
+    content: "\ea38";
+}
+.#{$imo-css-prefix}-arrow-up-left2:before {
+    content: "\ea39";
+}
+.#{$imo-css-prefix}-arrow-up2:before {
+    content: "\ea3a";
+}
+.#{$imo-css-prefix}-arrow-up-right2:before {
+    content: "\ea3b";
+}
+.#{$imo-css-prefix}-arrow-right2:before {
+    content: "\ea3c";
+}
+.#{$imo-css-prefix}-arrow-down-right2:before {
+    content: "\ea3d";
+}
+.#{$imo-css-prefix}-arrow-down2:before {
+    content: "\ea3e";
+}
+.#{$imo-css-prefix}-arrow-down-left2:before {
+    content: "\ea3f";
+}
+.#{$imo-css-prefix}-arrow-left2:before {
+    content: "\ea40";
+}
+.#{$imo-css-prefix}-circle-up:before {
+    content: "\ea41";
+}
+.#{$imo-css-prefix}-circle-right:before {
+    content: "\ea42";
+}
+.#{$imo-css-prefix}-circle-down:before {
+    content: "\ea43";
+}
+.#{$imo-css-prefix}-circle-left:before {
+    content: "\ea44";
+}
+.#{$imo-css-prefix}-tab:before {
+    content: "\ea45";
+}
+.#{$imo-css-prefix}-move-up:before {
+    content: "\ea46";
+}
+.#{$imo-css-prefix}-move-down:before {
+    content: "\ea47";
+}
+.#{$imo-css-prefix}-sort-alpha-asc:before {
+    content: "\ea48";
+}
+.#{$imo-css-prefix}-sort-alpha-desc:before {
+    content: "\ea49";
+}
+.#{$imo-css-prefix}-sort-numeric-asc:before {
+    content: "\ea4a";
+}
+.#{$imo-css-prefix}-sort-numberic-desc:before {
+    content: "\ea4b";
+}
+.#{$imo-css-prefix}-sort-amount-asc:before {
+    content: "\ea4c";
+}
+.#{$imo-css-prefix}-sort-amount-desc:before {
+    content: "\ea4d";
+}
+.#{$imo-css-prefix}-command:before {
+    content: "\ea4e";
+}
+.#{$imo-css-prefix}-shift:before {
+    content: "\ea4f";
+}
+.#{$imo-css-prefix}-ctrl:before {
+    content: "\ea50";
+}
+.#{$imo-css-prefix}-opt:before {
+    content: "\ea51";
+}
+.#{$imo-css-prefix}-checkbox-checked:before {
+    content: "\ea52";
+}
+.#{$imo-css-prefix}-checkbox-unchecked:before {
+    content: "\ea53";
+}
+.#{$imo-css-prefix}-radio-checked:before {
+    content: "\ea54";
+}
+.#{$imo-css-prefix}-radio-checked2:before {
+    content: "\ea55";
+}
+.#{$imo-css-prefix}-radio-unchecked:before {
+    content: "\ea56";
+}
+.#{$imo-css-prefix}-crop:before {
+    content: "\ea57";
+}
+.#{$imo-css-prefix}-make-group:before {
+    content: "\ea58";
+}
+.#{$imo-css-prefix}-ungroup:before {
+    content: "\ea59";
+}
+.#{$imo-css-prefix}-scissors:before {
+    content: "\ea5a";
+}
+.#{$imo-css-prefix}-filter:before {
+    content: "\ea5b";
+}
+.#{$imo-css-prefix}-font:before {
+    content: "\ea5c";
+}
+.#{$imo-css-prefix}-ligature:before {
+    content: "\ea5d";
+}
+.#{$imo-css-prefix}-ligature2:before {
+    content: "\ea5e";
+}
+.#{$imo-css-prefix}-text-height:before {
+    content: "\ea5f";
+}
+.#{$imo-css-prefix}-text-width:before {
+    content: "\ea60";
+}
+.#{$imo-css-prefix}-font-size:before {
+    content: "\ea61";
+}
+.#{$imo-css-prefix}-bold:before {
+    content: "\ea62";
+}
+.#{$imo-css-prefix}-underline:before {
+    content: "\ea63";
+}
+.#{$imo-css-prefix}-italic:before {
+    content: "\ea64";
+}
+.#{$imo-css-prefix}-strikethrough:before {
+    content: "\ea65";
+}
+.#{$imo-css-prefix}-omega:before {
+    content: "\ea66";
+}
+.#{$imo-css-prefix}-sigma:before {
+    content: "\ea67";
+}
+.#{$imo-css-prefix}-page-break:before {
+    content: "\ea68";
+}
+.#{$imo-css-prefix}-superscript:before {
+    content: "\ea69";
+}
+.#{$imo-css-prefix}-subscript:before {
+    content: "\ea6a";
+}
+.#{$imo-css-prefix}-superscript2:before {
+    content: "\ea6b";
+}
+.#{$imo-css-prefix}-subscript2:before {
+    content: "\ea6c";
+}
+.#{$imo-css-prefix}-text-color:before {
+    content: "\ea6d";
+}
+.#{$imo-css-prefix}-pagebreak:before {
+    content: "\ea6e";
+}
+.#{$imo-css-prefix}-clear-formatting:before {
+    content: "\ea6f";
+}
+.#{$imo-css-prefix}-table:before {
+    content: "\ea70";
+}
+.#{$imo-css-prefix}-table2:before {
+    content: "\ea71";
+}
+.#{$imo-css-prefix}-insert-template:before {
+    content: "\ea72";
+}
+.#{$imo-css-prefix}-pilcrow:before {
+    content: "\ea73";
+}
+.#{$imo-css-prefix}-ltr:before {
+    content: "\ea74";
+}
+.#{$imo-css-prefix}-rtl:before {
+    content: "\ea75";
+}
+.#{$imo-css-prefix}-section:before {
+    content: "\ea76";
+}
+.#{$imo-css-prefix}-paragraph-left:before {
+    content: "\ea77";
+}
+.#{$imo-css-prefix}-paragraph-center:before {
+    content: "\ea78";
+}
+.#{$imo-css-prefix}-paragraph-right:before {
+    content: "\ea79";
+}
+.#{$imo-css-prefix}-paragraph-justify:before {
+    content: "\ea7a";
+}
+.#{$imo-css-prefix}-indent-increase:before {
+    content: "\ea7b";
+}
+.#{$imo-css-prefix}-indent-decrease:before {
+    content: "\ea7c";
+}
+.#{$imo-css-prefix}-share:before {
+    content: "\ea7d";
+}
+.#{$imo-css-prefix}-new-tab:before {
+    content: "\ea7e";
+}
+.#{$imo-css-prefix}-embed:before {
+    content: "\ea7f";
+}
+.#{$imo-css-prefix}-embed2:before {
+    content: "\ea80";
+}
+.#{$imo-css-prefix}-terminal:before {
+    content: "\ea81";
+}
+.#{$imo-css-prefix}-share2:before {
+    content: "\ea82";
+}
+.#{$imo-css-prefix}-mail:before {
+    content: "\ea83";
+}
+.#{$imo-css-prefix}-mail2:before {
+    content: "\ea84";
+}
+.#{$imo-css-prefix}-mail3:before {
+    content: "\ea85";
+}
+.#{$imo-css-prefix}-mail4:before {
+    content: "\ea86";
+}
+.#{$imo-css-prefix}-amazon:before {
+    content: "\ea87";
+}
+.#{$imo-css-prefix}-google:before {
+    content: "\ea88";
+}
+.#{$imo-css-prefix}-google2:before {
+    content: "\ea89";
+}
+.#{$imo-css-prefix}-google3:before {
+    content: "\ea8a";
+}
+.#{$imo-css-prefix}-google-plus:before {
+    content: "\ea8b";
+}
+.#{$imo-css-prefix}-google-plus2:before {
+    content: "\ea8c";
+}
+.#{$imo-css-prefix}-google-plus3:before {
+    content: "\ea8d";
+}
+.#{$imo-css-prefix}-hangouts:before {
+    content: "\ea8e";
+}
+.#{$imo-css-prefix}-google-drive:before {
+    content: "\ea8f";
+}
+.#{$imo-css-prefix}-facebook:before {
+    content: "\ea90";
+}
+.#{$imo-css-prefix}-facebook2:before {
+    content: "\ea91";
+}
+.#{$imo-css-prefix}-instagram:before {
+    content: "\ea92";
+}
+.#{$imo-css-prefix}-whatsapp:before {
+    content: "\ea93";
+}
+.#{$imo-css-prefix}-spotify:before {
+    content: "\ea94";
+}
+.#{$imo-css-prefix}-telegram:before {
+    content: "\ea95";
+}
+.#{$imo-css-prefix}-twitter:before {
+    content: "\ea96";
+}
+.#{$imo-css-prefix}-vine:before {
+    content: "\ea97";
+}
+.#{$imo-css-prefix}-vk:before {
+    content: "\ea98";
+}
+.#{$imo-css-prefix}-renren:before {
+    content: "\ea99";
+}
+.#{$imo-css-prefix}-sina-weibo:before {
+    content: "\ea9a";
+}
+.#{$imo-css-prefix}-rss:before {
+    content: "\ea9b";
+}
+.#{$imo-css-prefix}-rss2:before {
+    content: "\ea9c";
+}
+.#{$imo-css-prefix}-youtube:before {
+    content: "\ea9d";
+}
+.#{$imo-css-prefix}-youtube2:before {
+    content: "\ea9e";
+}
+.#{$imo-css-prefix}-twitch:before {
+    content: "\ea9f";
+}
+.#{$imo-css-prefix}-vimeo:before {
+    content: "\eaa0";
+}
+.#{$imo-css-prefix}-vimeo2:before {
+    content: "\eaa1";
+}
+.#{$imo-css-prefix}-lanyrd:before {
+    content: "\eaa2";
+}
+.#{$imo-css-prefix}-flickr:before {
+    content: "\eaa3";
+}
+.#{$imo-css-prefix}-flickr2:before {
+    content: "\eaa4";
+}
+.#{$imo-css-prefix}-flickr3:before {
+    content: "\eaa5";
+}
+.#{$imo-css-prefix}-flickr4:before {
+    content: "\eaa6";
+}
+.#{$imo-css-prefix}-dribbble:before {
+    content: "\eaa7";
+}
+.#{$imo-css-prefix}-behance:before {
+    content: "\eaa8";
+}
+.#{$imo-css-prefix}-behance2:before {
+    content: "\eaa9";
+}
+.#{$imo-css-prefix}-deviantart:before {
+    content: "\eaaa";
+}
+.#{$imo-css-prefix}-500px:before {
+    content: "\eaab";
+}
+.#{$imo-css-prefix}-steam:before {
+    content: "\eaac";
+}
+.#{$imo-css-prefix}-steam2:before {
+    content: "\eaad";
+}
+.#{$imo-css-prefix}-dropbox:before {
+    content: "\eaae";
+}
+.#{$imo-css-prefix}-onedrive:before {
+    content: "\eaaf";
+}
+.#{$imo-css-prefix}-github:before {
+    content: "\eab0";
+}
+.#{$imo-css-prefix}-npm:before {
+    content: "\eab1";
+}
+.#{$imo-css-prefix}-basecamp:before {
+    content: "\eab2";
+}
+.#{$imo-css-prefix}-trello:before {
+    content: "\eab3";
+}
+.#{$imo-css-prefix}-wordpress:before {
+    content: "\eab4";
+}
+.#{$imo-css-prefix}-joomla:before {
+    content: "\eab5";
+}
+.#{$imo-css-prefix}-ello:before {
+    content: "\eab6";
+}
+.#{$imo-css-prefix}-blogger:before {
+    content: "\eab7";
+}
+.#{$imo-css-prefix}-blogger2:before {
+    content: "\eab8";
+}
+.#{$imo-css-prefix}-tumblr:before {
+    content: "\eab9";
+}
+.#{$imo-css-prefix}-tumblr2:before {
+    content: "\eaba";
+}
+.#{$imo-css-prefix}-yahoo:before {
+    content: "\eabb";
+}
+.#{$imo-css-prefix}-yahoo2:before {
+    content: "\eabc";
+}
+.#{$imo-css-prefix}-tux:before {
+    content: "\eabd";
+}
+.#{$imo-css-prefix}-appleinc:before {
+    content: "\eabe";
+}
+.#{$imo-css-prefix}-finder:before {
+    content: "\eabf";
+}
+.#{$imo-css-prefix}-android:before {
+    content: "\eac0";
+}
+.#{$imo-css-prefix}-windows:before {
+    content: "\eac1";
+}
+.#{$imo-css-prefix}-windows8:before {
+    content: "\eac2";
+}
+.#{$imo-css-prefix}-soundcloud:before {
+    content: "\eac3";
+}
+.#{$imo-css-prefix}-soundcloud2:before {
+    content: "\eac4";
+}
+.#{$imo-css-prefix}-skype:before {
+    content: "\eac5";
+}
+.#{$imo-css-prefix}-reddit:before {
+    content: "\eac6";
+}
+.#{$imo-css-prefix}-hackernews:before {
+    content: "\eac7";
+}
+.#{$imo-css-prefix}-wikipedia:before {
+    content: "\eac8";
+}
+.#{$imo-css-prefix}-linkedin:before {
+    content: "\eac9";
+}
+.#{$imo-css-prefix}-linkedin2:before {
+    content: "\eaca";
+}
+.#{$imo-css-prefix}-lastfm:before {
+    content: "\eacb";
+}
+.#{$imo-css-prefix}-lastfm2:before {
+    content: "\eacc";
+}
+.#{$imo-css-prefix}-delicious:before {
+    content: "\eacd";
+}
+.#{$imo-css-prefix}-stumbleupon:before {
+    content: "\eace";
+}
+.#{$imo-css-prefix}-stumbleupon2:before {
+    content: "\eacf";
+}
+.#{$imo-css-prefix}-stackoverflow:before {
+    content: "\ead0";
+}
+.#{$imo-css-prefix}-pinterest:before {
+    content: "\ead1";
+}
+.#{$imo-css-prefix}-pinterest2:before {
+    content: "\ead2";
+}
+.#{$imo-css-prefix}-xing:before {
+    content: "\ead3";
+}
+.#{$imo-css-prefix}-xing2:before {
+    content: "\ead4";
+}
+.#{$imo-css-prefix}-flattr:before {
+    content: "\ead5";
+}
+.#{$imo-css-prefix}-foursquare:before {
+    content: "\ead6";
+}
+.#{$imo-css-prefix}-yelp:before {
+    content: "\ead7";
+}
+.#{$imo-css-prefix}-paypal:before {
+    content: "\ead8";
+}
+.#{$imo-css-prefix}-chrome:before {
+    content: "\ead9";
+}
+.#{$imo-css-prefix}-firefox:before {
+    content: "\eada";
+}
+.#{$imo-css-prefix}-IE:before {
+    content: "\eadb";
+}
+.#{$imo-css-prefix}-edge:before {
+    content: "\eadc";
+}
+.#{$imo-css-prefix}-safari:before {
+    content: "\eadd";
+}
+.#{$imo-css-prefix}-opera:before {
+    content: "\eade";
+}
+.#{$imo-css-prefix}-file-pdf:before {
+    content: "\eadf";
+}
+.#{$imo-css-prefix}-file-openoffice:before {
+    content: "\eae0";
+}
+.#{$imo-css-prefix}-file-word:before {
+    content: "\eae1";
+}
+.#{$imo-css-prefix}-file-excel:before {
+    content: "\eae2";
+}
+.#{$imo-css-prefix}-libreoffice:before {
+    content: "\eae3";
+}
+.#{$imo-css-prefix}-html-five:before {
+    content: "\eae4";
+}
+.#{$imo-css-prefix}-html-five2:before {
+    content: "\eae5";
+}
+.#{$imo-css-prefix}-css3:before {
+    content: "\eae6";
+}
+.#{$imo-css-prefix}-git:before {
+    content: "\eae7";
+}
+.#{$imo-css-prefix}-codepen:before {
+    content: "\eae8";
+}
+.#{$imo-css-prefix}-svg:before {
+    content: "\eae9";
+}
+.#{$imo-css-prefix}-IcoMoon:before {
+    content: "\eaea";
+}
+.#{$imo-css-prefix}-uni21:before {
+    content: "\21";
+}
+.#{$imo-css-prefix}-uni22:before {
+    content: "\22";
+}
+.#{$imo-css-prefix}-uni23:before {
+    content: "\23";
+}
+.#{$imo-css-prefix}-uni24:before {
+    content: "\24";
+}
+.#{$imo-css-prefix}-uni25:before {
+    content: "\25";
+}
+.#{$imo-css-prefix}-uni26:before {
+    content: "\26";
+}
+.#{$imo-css-prefix}-uni27:before {
+    content: "\27";
+}
+.#{$imo-css-prefix}-uni28:before {
+    content: "\28";
+}
+.#{$imo-css-prefix}-uni29:before {
+    content: "\29";
+}
+.#{$imo-css-prefix}-uni2A:before {
+    content: "\2a";
+}
+.#{$imo-css-prefix}-uni2B:before {
+    content: "\2b";
+}
+.#{$imo-css-prefix}-uni2C:before {
+    content: "\2c";
+}
+.#{$imo-css-prefix}-uni2D:before {
+    content: "\2d";
+}
+.#{$imo-css-prefix}-uni2E:before {
+    content: "\2e";
+}
+.#{$imo-css-prefix}-uni2F:before {
+    content: "\2f";
+}
+.#{$imo-css-prefix}-uni30:before {
+    content: "\30";
+}
+.#{$imo-css-prefix}-uni31:before {
+    content: "\31";
+}
+.#{$imo-css-prefix}-uni32:before {
+    content: "\32";
+}
+.#{$imo-css-prefix}-uni33:before {
+    content: "\33";
+}
+.#{$imo-css-prefix}-uni34:before {
+    content: "\34";
+}
+.#{$imo-css-prefix}-uni35:before {
+    content: "\35";
+}
+.#{$imo-css-prefix}-uni36:before {
+    content: "\36";
+}
+.#{$imo-css-prefix}-uni37:before {
+    content: "\37";
+}
+.#{$imo-css-prefix}-uni38:before {
+    content: "\38";
+}
+.#{$imo-css-prefix}-uni39:before {
+    content: "\39";
+}
+.#{$imo-css-prefix}-uni3A:before {
+    content: "\3a";
+}
+.#{$imo-css-prefix}-uni3B:before {
+    content: "\3b";
+}
+.#{$imo-css-prefix}-uni3C:before {
+    content: "\3c";
+}
+.#{$imo-css-prefix}-uni3D:before {
+    content: "\3d";
+}
+.#{$imo-css-prefix}-uni3E:before {
+    content: "\3e";
+}
+.#{$imo-css-prefix}-uni3F:before {
+    content: "\3f";
+}
+.#{$imo-css-prefix}-uni40:before {
+    content: "\40";
+}
+.#{$imo-css-prefix}-uni41:before {
+    content: "\41";
+}
+.#{$imo-css-prefix}-uni42:before {
+    content: "\42";
+}
+.#{$imo-css-prefix}-uni43:before {
+    content: "\43";
+}
+.#{$imo-css-prefix}-uni44:before {
+    content: "\44";
+}
+.#{$imo-css-prefix}-uni45:before {
+    content: "\45";
+}
+.#{$imo-css-prefix}-uni46:before {
+    content: "\46";
+}
+.#{$imo-css-prefix}-uni47:before {
+    content: "\47";
+}
+.#{$imo-css-prefix}-uni48:before {
+    content: "\48";
+}
+.#{$imo-css-prefix}-uni49:before {
+    content: "\49";
+}
+.#{$imo-css-prefix}-uni4A:before {
+    content: "\4a";
+}
+.#{$imo-css-prefix}-uni4B:before {
+    content: "\4b";
+}
+.#{$imo-css-prefix}-uni4C:before {
+    content: "\4c";
+}
+.#{$imo-css-prefix}-uni4D:before {
+    content: "\4d";
+}
+.#{$imo-css-prefix}-uni4E:before {
+    content: "\4e";
+}
+.#{$imo-css-prefix}-uni4F:before {
+    content: "\4f";
+}
+.#{$imo-css-prefix}-uni50:before {
+    content: "\50";
+}
+.#{$imo-css-prefix}-uni51:before {
+    content: "\51";
+}
+.#{$imo-css-prefix}-uni52:before {
+    content: "\52";
+}
+.#{$imo-css-prefix}-uni53:before {
+    content: "\53";
+}
+.#{$imo-css-prefix}-uni54:before {
+    content: "\54";
+}
+.#{$imo-css-prefix}-uni55:before {
+    content: "\55";
+}
+.#{$imo-css-prefix}-uni56:before {
+    content: "\56";
+}
+.#{$imo-css-prefix}-uni57:before {
+    content: "\57";
+}
+.#{$imo-css-prefix}-uni58:before {
+    content: "\58";
+}
+.#{$imo-css-prefix}-uni59:before {
+    content: "\59";
+}
+.#{$imo-css-prefix}-uni5A:before {
+    content: "\5a";
+}
+.#{$imo-css-prefix}-uni5B:before {
+    content: "\5b";
+}
+.#{$imo-css-prefix}-uni5C:before {
+    content: "\5c";
+}
+.#{$imo-css-prefix}-uni5D:before {
+    content: "\5d";
+}
+.#{$imo-css-prefix}-uni5E:before {
+    content: "\5e";
+}
+.#{$imo-css-prefix}-uni5F:before {
+    content: "\5f";
+}
+.#{$imo-css-prefix}-uni60:before {
+    content: "\60";
+}
+.#{$imo-css-prefix}-uni61:before {
+    content: "\61";
+}
+.#{$imo-css-prefix}-uni62:before {
+    content: "\62";
+}
+.#{$imo-css-prefix}-uni63:before {
+    content: "\63";
+}
+.#{$imo-css-prefix}-uni64:before {
+    content: "\64";
+}
+.#{$imo-css-prefix}-uni65:before {
+    content: "\65";
+}
+.#{$imo-css-prefix}-uni66:before {
+    content: "\66";
+}
+.#{$imo-css-prefix}-uni67:before {
+    content: "\67";
+}
+.#{$imo-css-prefix}-uni68:before {
+    content: "\68";
+}
+.#{$imo-css-prefix}-uni69:before {
+    content: "\69";
+}
+.#{$imo-css-prefix}-uni6A:before {
+    content: "\6a";
+}
+.#{$imo-css-prefix}-uni6B:before {
+    content: "\6b";
+}
+.#{$imo-css-prefix}-uni6C:before {
+    content: "\6c";
+}
+.#{$imo-css-prefix}-uni6D:before {
+    content: "\6d";
+}
+.#{$imo-css-prefix}-uni6E:before {
+    content: "\6e";
+}
+.#{$imo-css-prefix}-uni6F:before {
+    content: "\6f";
+}
+.#{$imo-css-prefix}-uni70:before {
+    content: "\70";
+}
+.#{$imo-css-prefix}-uni71:before {
+    content: "\71";
+}
+.#{$imo-css-prefix}-uni72:before {
+    content: "\72";
+}
+.#{$imo-css-prefix}-uni73:before {
+    content: "\73";
+}
+.#{$imo-css-prefix}-uni74:before {
+    content: "\74";
+}
+.#{$imo-css-prefix}-uni75:before {
+    content: "\75";
+}
+.#{$imo-css-prefix}-uni76:before {
+    content: "\76";
+}
+.#{$imo-css-prefix}-uni77:before {
+    content: "\77";
+}
+.#{$imo-css-prefix}-uni78:before {
+    content: "\78";
+}
+.#{$imo-css-prefix}-uni79:before {
+    content: "\79";
+}
+.#{$imo-css-prefix}-uni7A:before {
+    content: "\7a";
+}
+.#{$imo-css-prefix}-uni7B:before {
+    content: "\7b";
+}
+.#{$imo-css-prefix}-uni7C:before {
+    content: "\7c";
+}
+.#{$imo-css-prefix}-uni7D:before {
+    content: "\7d";
+}
+.#{$imo-css-prefix}-uni7E:before {
+    content: "\7e";
+}
+.#{$imo-css-prefix}-uniA9:before {
+    content: "\a9";
+}
 
-.#{$imo-css-prefix}-home:before { content: "\e900"; }
-.#{$imo-css-prefix}-home2:before { content: "\e901"; }
-.#{$imo-css-prefix}-home3:before { content: "\e902"; }
-.#{$imo-css-prefix}-office:before { content: "\e903"; }
-.#{$imo-css-prefix}-newspaper:before { content: "\e904"; }
-.#{$imo-css-prefix}-pencil:before { content: "\e905"; }
-.#{$imo-css-prefix}-pencil2:before { content: "\e906"; }
-.#{$imo-css-prefix}-quill:before { content: "\e907"; }
-.#{$imo-css-prefix}-pen:before { content: "\e908"; }
-.#{$imo-css-prefix}-blog:before { content: "\e909"; }
-.#{$imo-css-prefix}-eyedropper:before { content: "\e90a"; }
-.#{$imo-css-prefix}-droplet:before { content: "\e90b"; }
-.#{$imo-css-prefix}-paint-format:before { content: "\e90c"; }
-.#{$imo-css-prefix}-image:before { content: "\e90d"; }
-.#{$imo-css-prefix}-images:before { content: "\e90e"; }
-.#{$imo-css-prefix}-camera:before { content: "\e90f"; }
-.#{$imo-css-prefix}-headphones:before { content: "\e910"; }
-.#{$imo-css-prefix}-music:before { content: "\e911"; }
-.#{$imo-css-prefix}-play:before { content: "\e912"; }
-.#{$imo-css-prefix}-film:before { content: "\e913"; }
-.#{$imo-css-prefix}-video-camera:before { content: "\e914"; }
-.#{$imo-css-prefix}-dice:before { content: "\e915"; }
-.#{$imo-css-prefix}-pacman:before { content: "\e916"; }
-.#{$imo-css-prefix}-spades:before { content: "\e917"; }
-.#{$imo-css-prefix}-clubs:before { content: "\e918"; }
-.#{$imo-css-prefix}-diamonds:before { content: "\e919"; }
-.#{$imo-css-prefix}-bullhorn:before { content: "\e91a"; }
-.#{$imo-css-prefix}-connection:before { content: "\e91b"; }
-.#{$imo-css-prefix}-podcast:before { content: "\e91c"; }
-.#{$imo-css-prefix}-feed:before { content: "\e91d"; }
-.#{$imo-css-prefix}-mic:before { content: "\e91e"; }
-.#{$imo-css-prefix}-book:before { content: "\e91f"; }
-.#{$imo-css-prefix}-books:before { content: "\e920"; }
-.#{$imo-css-prefix}-library:before { content: "\e921"; }
-.#{$imo-css-prefix}-file-text:before { content: "\e922"; }
-.#{$imo-css-prefix}-profile:before { content: "\e923"; }
-.#{$imo-css-prefix}-file-empty:before { content: "\e924"; }
-.#{$imo-css-prefix}-files-empty:before { content: "\e925"; }
-.#{$imo-css-prefix}-file-text2:before { content: "\e926"; }
-.#{$imo-css-prefix}-file-picture:before { content: "\e927"; }
-.#{$imo-css-prefix}-file-music:before { content: "\e928"; }
-.#{$imo-css-prefix}-file-play:before { content: "\e929"; }
-.#{$imo-css-prefix}-file-video:before { content: "\e92a"; }
-.#{$imo-css-prefix}-file-zip:before { content: "\e92b"; }
-.#{$imo-css-prefix}-copy:before { content: "\e92c"; }
-.#{$imo-css-prefix}-paste:before { content: "\e92d"; }
-.#{$imo-css-prefix}-stack:before { content: "\e92e"; }
-.#{$imo-css-prefix}-folder:before { content: "\e92f"; }
-.#{$imo-css-prefix}-folder-open:before { content: "\e930"; }
-.#{$imo-css-prefix}-folder-plus:before { content: "\e931"; }
-.#{$imo-css-prefix}-folder-minus:before { content: "\e932"; }
-.#{$imo-css-prefix}-folder-download:before { content: "\e933"; }
-.#{$imo-css-prefix}-folder-upload:before { content: "\e934"; }
-.#{$imo-css-prefix}-price-tag:before { content: "\e935"; }
-.#{$imo-css-prefix}-price-tags:before { content: "\e936"; }
-.#{$imo-css-prefix}-barcode:before { content: "\e937"; }
-.#{$imo-css-prefix}-qrcode:before { content: "\e938"; }
-.#{$imo-css-prefix}-ticket:before { content: "\e939"; }
-.#{$imo-css-prefix}-cart:before { content: "\e93a"; }
-.#{$imo-css-prefix}-coin-dollar:before { content: "\e93b"; }
-.#{$imo-css-prefix}-coin-euro:before { content: "\e93c"; }
-.#{$imo-css-prefix}-coin-pound:before { content: "\e93d"; }
-.#{$imo-css-prefix}-coin-yen:before { content: "\e93e"; }
-.#{$imo-css-prefix}-credit-card:before { content: "\e93f"; }
-.#{$imo-css-prefix}-calculator:before { content: "\e940"; }
-.#{$imo-css-prefix}-lifebuoy:before { content: "\e941"; }
-.#{$imo-css-prefix}-phone:before { content: "\e942"; }
-.#{$imo-css-prefix}-phone-hang-up:before { content: "\e943"; }
-.#{$imo-css-prefix}-address-book:before { content: "\e944"; }
-.#{$imo-css-prefix}-envelop:before { content: "\e945"; }
-.#{$imo-css-prefix}-pushpin:before { content: "\e946"; }
-.#{$imo-css-prefix}-location:before { content: "\e947"; }
-.#{$imo-css-prefix}-location2:before { content: "\e948"; }
-.#{$imo-css-prefix}-compass:before { content: "\e949"; }
-.#{$imo-css-prefix}-compass2:before { content: "\e94a"; }
-.#{$imo-css-prefix}-map:before { content: "\e94b"; }
-.#{$imo-css-prefix}-map2:before { content: "\e94c"; }
-.#{$imo-css-prefix}-history:before { content: "\e94d"; }
-.#{$imo-css-prefix}-clock:before { content: "\e94e"; }
-.#{$imo-css-prefix}-clock2:before { content: "\e94f"; }
-.#{$imo-css-prefix}-alarm:before { content: "\e950"; }
-.#{$imo-css-prefix}-bell:before { content: "\e951"; }
-.#{$imo-css-prefix}-stopwatch:before { content: "\e952"; }
-.#{$imo-css-prefix}-calendar:before { content: "\e953"; }
-.#{$imo-css-prefix}-printer:before { content: "\e954"; }
-.#{$imo-css-prefix}-keyboard:before { content: "\e955"; }
-.#{$imo-css-prefix}-display:before { content: "\e956"; }
-.#{$imo-css-prefix}-laptop:before { content: "\e957"; }
-.#{$imo-css-prefix}-mobile:before { content: "\e958"; }
-.#{$imo-css-prefix}-mobile2:before { content: "\e959"; }
-.#{$imo-css-prefix}-tablet:before { content: "\e95a"; }
-.#{$imo-css-prefix}-tv:before { content: "\e95b"; }
-.#{$imo-css-prefix}-drawer:before { content: "\e95c"; }
-.#{$imo-css-prefix}-drawer2:before { content: "\e95d"; }
-.#{$imo-css-prefix}-box-add:before { content: "\e95e"; }
-.#{$imo-css-prefix}-box-remove:before { content: "\e95f"; }
-.#{$imo-css-prefix}-download:before { content: "\e960"; }
-.#{$imo-css-prefix}-upload:before { content: "\e961"; }
-.#{$imo-css-prefix}-floppy-disk:before { content: "\e962"; }
-.#{$imo-css-prefix}-drive:before { content: "\e963"; }
-.#{$imo-css-prefix}-database:before { content: "\e964"; }
-.#{$imo-css-prefix}-undo:before { content: "\e965"; }
-.#{$imo-css-prefix}-redo:before { content: "\e966"; }
-.#{$imo-css-prefix}-undo2:before { content: "\e967"; }
-.#{$imo-css-prefix}-redo2:before { content: "\e968"; }
-.#{$imo-css-prefix}-forward:before { content: "\e969"; }
-.#{$imo-css-prefix}-reply:before { content: "\e96a"; }
-.#{$imo-css-prefix}-bubble:before { content: "\e96b"; }
-.#{$imo-css-prefix}-bubbles:before { content: "\e96c"; }
-.#{$imo-css-prefix}-bubbles2:before { content: "\e96d"; }
-.#{$imo-css-prefix}-bubble2:before { content: "\e96e"; }
-.#{$imo-css-prefix}-bubbles3:before { content: "\e96f"; }
-.#{$imo-css-prefix}-bubbles4:before { content: "\e970"; }
-.#{$imo-css-prefix}-user:before { content: "\e971"; }
-.#{$imo-css-prefix}-users:before { content: "\e972"; }
-.#{$imo-css-prefix}-user-plus:before { content: "\e973"; }
-.#{$imo-css-prefix}-user-minus:before { content: "\e974"; }
-.#{$imo-css-prefix}-user-check:before { content: "\e975"; }
-.#{$imo-css-prefix}-user-tie:before { content: "\e976"; }
-.#{$imo-css-prefix}-quotes-left:before { content: "\e977"; }
-.#{$imo-css-prefix}-quotes-right:before { content: "\e978"; }
-.#{$imo-css-prefix}-hour-glass:before { content: "\e979"; }
-.#{$imo-css-prefix}-spinner:before { content: "\e97a"; }
-.#{$imo-css-prefix}-spinner2:before { content: "\e97b"; }
-.#{$imo-css-prefix}-spinner3:before { content: "\e97c"; }
-.#{$imo-css-prefix}-spinner4:before { content: "\e97d"; }
-.#{$imo-css-prefix}-spinner5:before { content: "\e97e"; }
-.#{$imo-css-prefix}-spinner6:before { content: "\e97f"; }
-.#{$imo-css-prefix}-spinner7:before { content: "\e980"; }
-.#{$imo-css-prefix}-spinner8:before { content: "\e981"; }
-.#{$imo-css-prefix}-spinner9:before { content: "\e982"; }
-.#{$imo-css-prefix}-spinner10:before { content: "\e983"; }
-.#{$imo-css-prefix}-spinner11:before { content: "\e984"; }
-.#{$imo-css-prefix}-binoculars:before { content: "\e985"; }
-.#{$imo-css-prefix}-search:before { content: "\e986"; }
-.#{$imo-css-prefix}-zoom-in:before { content: "\e987"; }
-.#{$imo-css-prefix}-zoom-out:before { content: "\e988"; }
-.#{$imo-css-prefix}-enlarge:before { content: "\e989"; }
-.#{$imo-css-prefix}-shrink:before { content: "\e98a"; }
-.#{$imo-css-prefix}-enlarge2:before { content: "\e98b"; }
-.#{$imo-css-prefix}-shrink2:before { content: "\e98c"; }
-.#{$imo-css-prefix}-key:before { content: "\e98d"; }
-.#{$imo-css-prefix}-key2:before { content: "\e98e"; }
-.#{$imo-css-prefix}-lock:before { content: "\e98f"; }
-.#{$imo-css-prefix}-unlocked:before { content: "\e990"; }
-.#{$imo-css-prefix}-wrench:before { content: "\e991"; }
-.#{$imo-css-prefix}-equalizer:before { content: "\e992"; }
-.#{$imo-css-prefix}-equalizer2:before { content: "\e993"; }
-.#{$imo-css-prefix}-cog:before { content: "\e994"; }
-.#{$imo-css-prefix}-cogs:before { content: "\e995"; }
-.#{$imo-css-prefix}-hammer:before { content: "\e996"; }
-.#{$imo-css-prefix}-magic-wand:before { content: "\e997"; }
-.#{$imo-css-prefix}-aid-kit:before { content: "\e998"; }
-.#{$imo-css-prefix}-bug:before { content: "\e999"; }
-.#{$imo-css-prefix}-pie-chart:before { content: "\e99a"; }
-.#{$imo-css-prefix}-stats-dots:before { content: "\e99b"; }
-.#{$imo-css-prefix}-stats-bars:before { content: "\e99c"; }
-.#{$imo-css-prefix}-stats-bars2:before { content: "\e99d"; }
-.#{$imo-css-prefix}-trophy:before { content: "\e99e"; }
-.#{$imo-css-prefix}-gift:before { content: "\e99f"; }
-.#{$imo-css-prefix}-glass:before { content: "\e9a0"; }
-.#{$imo-css-prefix}-glass2:before { content: "\e9a1"; }
-.#{$imo-css-prefix}-mug:before { content: "\e9a2"; }
-.#{$imo-css-prefix}-spoon-knife:before { content: "\e9a3"; }
-.#{$imo-css-prefix}-leaf:before { content: "\e9a4"; }
-.#{$imo-css-prefix}-rocket:before { content: "\e9a5"; }
-.#{$imo-css-prefix}-meter:before { content: "\e9a6"; }
-.#{$imo-css-prefix}-meter2:before { content: "\e9a7"; }
-.#{$imo-css-prefix}-hammer2:before { content: "\e9a8"; }
-.#{$imo-css-prefix}-fire:before { content: "\e9a9"; }
-.#{$imo-css-prefix}-lab:before { content: "\e9aa"; }
-.#{$imo-css-prefix}-magnet:before { content: "\e9ab"; }
-.#{$imo-css-prefix}-bin:before { content: "\e9ac"; }
-.#{$imo-css-prefix}-bin2:before { content: "\e9ad"; }
-.#{$imo-css-prefix}-briefcase:before { content: "\e9ae"; }
-.#{$imo-css-prefix}-airplane:before { content: "\e9af"; }
-.#{$imo-css-prefix}-truck:before { content: "\e9b0"; }
-.#{$imo-css-prefix}-road:before { content: "\e9b1"; }
-.#{$imo-css-prefix}-accessibility:before { content: "\e9b2"; }
-.#{$imo-css-prefix}-target:before { content: "\e9b3"; }
-.#{$imo-css-prefix}-shield:before { content: "\e9b4"; }
-.#{$imo-css-prefix}-power:before { content: "\e9b5"; }
-.#{$imo-css-prefix}-switch:before { content: "\e9b6"; }
-.#{$imo-css-prefix}-power-cord:before { content: "\e9b7"; }
-.#{$imo-css-prefix}-clipboard:before { content: "\e9b8"; }
-.#{$imo-css-prefix}-list-numbered:before { content: "\e9b9"; }
-.#{$imo-css-prefix}-list:before { content: "\e9ba"; }
-.#{$imo-css-prefix}-list2:before { content: "\e9bb"; }
-.#{$imo-css-prefix}-tree:before { content: "\e9bc"; }
-.#{$imo-css-prefix}-menu:before { content: "\e9bd"; }
-.#{$imo-css-prefix}-menu2:before { content: "\e9be"; }
-.#{$imo-css-prefix}-menu3:before { content: "\e9bf"; }
-.#{$imo-css-prefix}-menu4:before { content: "\e9c0"; }
-.#{$imo-css-prefix}-cloud:before { content: "\e9c1"; }
-.#{$imo-css-prefix}-cloud-download:before { content: "\e9c2"; }
-.#{$imo-css-prefix}-cloud-upload:before { content: "\e9c3"; }
-.#{$imo-css-prefix}-cloud-check:before { content: "\e9c4"; }
-.#{$imo-css-prefix}-download2:before { content: "\e9c5"; }
-.#{$imo-css-prefix}-upload2:before { content: "\e9c6"; }
-.#{$imo-css-prefix}-download3:before { content: "\e9c7"; }
-.#{$imo-css-prefix}-upload3:before { content: "\e9c8"; }
-.#{$imo-css-prefix}-sphere:before { content: "\e9c9"; }
-.#{$imo-css-prefix}-earth:before { content: "\e9ca"; }
-.#{$imo-css-prefix}-link:before { content: "\e9cb"; }
-.#{$imo-css-prefix}-flag:before { content: "\e9cc"; }
-.#{$imo-css-prefix}-attachment:before { content: "\e9cd"; }
-.#{$imo-css-prefix}-eye:before { content: "\e9ce"; }
-.#{$imo-css-prefix}-eye-plus:before { content: "\e9cf"; }
-.#{$imo-css-prefix}-eye-minus:before { content: "\e9d0"; }
-.#{$imo-css-prefix}-eye-blocked:before { content: "\e9d1"; }
-.#{$imo-css-prefix}-bookmark:before { content: "\e9d2"; }
-.#{$imo-css-prefix}-bookmarks:before { content: "\e9d3"; }
-.#{$imo-css-prefix}-sun:before { content: "\e9d4"; }
-.#{$imo-css-prefix}-contrast:before { content: "\e9d5"; }
-.#{$imo-css-prefix}-brightness-contrast:before { content: "\e9d6"; }
-.#{$imo-css-prefix}-star-empty:before { content: "\e9d7"; }
-.#{$imo-css-prefix}-star-half:before { content: "\e9d8"; }
-.#{$imo-css-prefix}-star-full:before { content: "\e9d9"; }
-.#{$imo-css-prefix}-heart:before { content: "\e9da"; }
-.#{$imo-css-prefix}-heart-broken:before { content: "\e9db"; }
-.#{$imo-css-prefix}-man:before { content: "\e9dc"; }
-.#{$imo-css-prefix}-woman:before { content: "\e9dd"; }
-.#{$imo-css-prefix}-man-woman:before { content: "\e9de"; }
-.#{$imo-css-prefix}-happy:before { content: "\e9df"; }
-.#{$imo-css-prefix}-happy2:before { content: "\e9e0"; }
-.#{$imo-css-prefix}-smile:before { content: "\e9e1"; }
-.#{$imo-css-prefix}-smile2:before { content: "\e9e2"; }
-.#{$imo-css-prefix}-tongue:before { content: "\e9e3"; }
-.#{$imo-css-prefix}-tongue2:before { content: "\e9e4"; }
-.#{$imo-css-prefix}-sad:before { content: "\e9e5"; }
-.#{$imo-css-prefix}-sad2:before { content: "\e9e6"; }
-.#{$imo-css-prefix}-wink:before { content: "\e9e7"; }
-.#{$imo-css-prefix}-wink2:before { content: "\e9e8"; }
-.#{$imo-css-prefix}-grin:before { content: "\e9e9"; }
-.#{$imo-css-prefix}-grin2:before { content: "\e9ea"; }
-.#{$imo-css-prefix}-cool:before { content: "\e9eb"; }
-.#{$imo-css-prefix}-cool2:before { content: "\e9ec"; }
-.#{$imo-css-prefix}-angry:before { content: "\e9ed"; }
-.#{$imo-css-prefix}-angry2:before { content: "\e9ee"; }
-.#{$imo-css-prefix}-evil:before { content: "\e9ef"; }
-.#{$imo-css-prefix}-evil2:before { content: "\e9f0"; }
-.#{$imo-css-prefix}-shocked:before { content: "\e9f1"; }
-.#{$imo-css-prefix}-shocked2:before { content: "\e9f2"; }
-.#{$imo-css-prefix}-baffled:before { content: "\e9f3"; }
-.#{$imo-css-prefix}-baffled2:before { content: "\e9f4"; }
-.#{$imo-css-prefix}-confused:before { content: "\e9f5"; }
-.#{$imo-css-prefix}-confused2:before { content: "\e9f6"; }
-.#{$imo-css-prefix}-neutral:before { content: "\e9f7"; }
-.#{$imo-css-prefix}-neutral2:before { content: "\e9f8"; }
-.#{$imo-css-prefix}-hipster:before { content: "\e9f9"; }
-.#{$imo-css-prefix}-hipster2:before { content: "\e9fa"; }
-.#{$imo-css-prefix}-wondering:before { content: "\e9fb"; }
-.#{$imo-css-prefix}-wondering2:before { content: "\e9fc"; }
-.#{$imo-css-prefix}-sleepy:before { content: "\e9fd"; }
-.#{$imo-css-prefix}-sleepy2:before { content: "\e9fe"; }
-.#{$imo-css-prefix}-frustrated:before { content: "\e9ff"; }
-.#{$imo-css-prefix}-frustrated2:before { content: "\ea00"; }
-.#{$imo-css-prefix}-crying:before { content: "\ea01"; }
-.#{$imo-css-prefix}-crying2:before { content: "\ea02"; }
-.#{$imo-css-prefix}-point-up:before { content: "\ea03"; }
-.#{$imo-css-prefix}-point-right:before { content: "\ea04"; }
-.#{$imo-css-prefix}-point-down:before { content: "\ea05"; }
-.#{$imo-css-prefix}-point-left:before { content: "\ea06"; }
-.#{$imo-css-prefix}-warning:before { content: "\ea07"; }
-.#{$imo-css-prefix}-notification:before { content: "\ea08"; }
-.#{$imo-css-prefix}-question:before { content: "\ea09"; }
-.#{$imo-css-prefix}-plus:before { content: "\ea0a"; }
-.#{$imo-css-prefix}-minus:before { content: "\ea0b"; }
-.#{$imo-css-prefix}-info:before { content: "\ea0c"; }
-.#{$imo-css-prefix}-cancel-circle:before { content: "\ea0d"; }
-.#{$imo-css-prefix}-blocked:before { content: "\ea0e"; }
-.#{$imo-css-prefix}-cross:before { content: "\ea0f"; }
-.#{$imo-css-prefix}-checkmark:before { content: "\ea10"; }
-.#{$imo-css-prefix}-checkmark2:before { content: "\ea11"; }
-.#{$imo-css-prefix}-spell-check:before { content: "\ea12"; }
-.#{$imo-css-prefix}-enter:before { content: "\ea13"; }
-.#{$imo-css-prefix}-exit:before { content: "\ea14"; }
-.#{$imo-css-prefix}-play2:before { content: "\ea15"; }
-.#{$imo-css-prefix}-pause:before { content: "\ea16"; }
-.#{$imo-css-prefix}-stop:before { content: "\ea17"; }
-.#{$imo-css-prefix}-previous:before { content: "\ea18"; }
-.#{$imo-css-prefix}-next:before { content: "\ea19"; }
-.#{$imo-css-prefix}-backward:before { content: "\ea1a"; }
-.#{$imo-css-prefix}-forward2:before { content: "\ea1b"; }
-.#{$imo-css-prefix}-play3:before { content: "\ea1c"; }
-.#{$imo-css-prefix}-pause2:before { content: "\ea1d"; }
-.#{$imo-css-prefix}-stop2:before { content: "\ea1e"; }
-.#{$imo-css-prefix}-backward2:before { content: "\ea1f"; }
-.#{$imo-css-prefix}-forward3:before { content: "\ea20"; }
-.#{$imo-css-prefix}-first:before { content: "\ea21"; }
-.#{$imo-css-prefix}-last:before { content: "\ea22"; }
-.#{$imo-css-prefix}-previous2:before { content: "\ea23"; }
-.#{$imo-css-prefix}-next2:before { content: "\ea24"; }
-.#{$imo-css-prefix}-eject:before { content: "\ea25"; }
-.#{$imo-css-prefix}-volume-high:before { content: "\ea26"; }
-.#{$imo-css-prefix}-volume-medium:before { content: "\ea27"; }
-.#{$imo-css-prefix}-volume-low:before { content: "\ea28"; }
-.#{$imo-css-prefix}-volume-mute:before { content: "\ea29"; }
-.#{$imo-css-prefix}-volume-mute2:before { content: "\ea2a"; }
-.#{$imo-css-prefix}-volume-increase:before { content: "\ea2b"; }
-.#{$imo-css-prefix}-volume-decrease:before { content: "\ea2c"; }
-.#{$imo-css-prefix}-loop:before { content: "\ea2d"; }
-.#{$imo-css-prefix}-loop2:before { content: "\ea2e"; }
-.#{$imo-css-prefix}-infinite:before { content: "\ea2f"; }
-.#{$imo-css-prefix}-shuffle:before { content: "\ea30"; }
-.#{$imo-css-prefix}-arrow-up-left:before { content: "\ea31"; }
-.#{$imo-css-prefix}-arrow-up:before { content: "\ea32"; }
-.#{$imo-css-prefix}-arrow-up-right:before { content: "\ea33"; }
-.#{$imo-css-prefix}-arrow-right:before { content: "\ea34"; }
-.#{$imo-css-prefix}-arrow-down-right:before { content: "\ea35"; }
-.#{$imo-css-prefix}-arrow-down:before { content: "\ea36"; }
-.#{$imo-css-prefix}-arrow-down-left:before { content: "\ea37"; }
-.#{$imo-css-prefix}-arrow-left:before { content: "\ea38"; }
-.#{$imo-css-prefix}-arrow-up-left2:before { content: "\ea39"; }
-.#{$imo-css-prefix}-arrow-up2:before { content: "\ea3a"; }
-.#{$imo-css-prefix}-arrow-up-right2:before { content: "\ea3b"; }
-.#{$imo-css-prefix}-arrow-right2:before { content: "\ea3c"; }
-.#{$imo-css-prefix}-arrow-down-right2:before { content: "\ea3d"; }
-.#{$imo-css-prefix}-arrow-down2:before { content: "\ea3e"; }
-.#{$imo-css-prefix}-arrow-down-left2:before { content: "\ea3f"; }
-.#{$imo-css-prefix}-arrow-left2:before { content: "\ea40"; }
-.#{$imo-css-prefix}-circle-up:before { content: "\ea41"; }
-.#{$imo-css-prefix}-circle-right:before { content: "\ea42"; }
-.#{$imo-css-prefix}-circle-down:before { content: "\ea43"; }
-.#{$imo-css-prefix}-circle-left:before { content: "\ea44"; }
-.#{$imo-css-prefix}-tab:before { content: "\ea45"; }
-.#{$imo-css-prefix}-move-up:before { content: "\ea46"; }
-.#{$imo-css-prefix}-move-down:before { content: "\ea47"; }
-.#{$imo-css-prefix}-sort-alpha-asc:before { content: "\ea48"; }
-.#{$imo-css-prefix}-sort-alpha-desc:before { content: "\ea49"; }
-.#{$imo-css-prefix}-sort-numeric-asc:before { content: "\ea4a"; }
-.#{$imo-css-prefix}-sort-numberic-desc:before { content: "\ea4b"; }
-.#{$imo-css-prefix}-sort-amount-asc:before { content: "\ea4c"; }
-.#{$imo-css-prefix}-sort-amount-desc:before { content: "\ea4d"; }
-.#{$imo-css-prefix}-command:before { content: "\ea4e"; }
-.#{$imo-css-prefix}-shift:before { content: "\ea4f"; }
-.#{$imo-css-prefix}-ctrl:before { content: "\ea50"; }
-.#{$imo-css-prefix}-opt:before { content: "\ea51"; }
-.#{$imo-css-prefix}-checkbox-checked:before { content: "\ea52"; }
-.#{$imo-css-prefix}-checkbox-unchecked:before { content: "\ea53"; }
-.#{$imo-css-prefix}-radio-checked:before { content: "\ea54"; }
-.#{$imo-css-prefix}-radio-checked2:before { content: "\ea55"; }
-.#{$imo-css-prefix}-radio-unchecked:before { content: "\ea56"; }
-.#{$imo-css-prefix}-crop:before { content: "\ea57"; }
-.#{$imo-css-prefix}-make-group:before { content: "\ea58"; }
-.#{$imo-css-prefix}-ungroup:before { content: "\ea59"; }
-.#{$imo-css-prefix}-scissors:before { content: "\ea5a"; }
-.#{$imo-css-prefix}-filter:before { content: "\ea5b"; }
-.#{$imo-css-prefix}-font:before { content: "\ea5c"; }
-.#{$imo-css-prefix}-ligature:before { content: "\ea5d"; }
-.#{$imo-css-prefix}-ligature2:before { content: "\ea5e"; }
-.#{$imo-css-prefix}-text-height:before { content: "\ea5f"; }
-.#{$imo-css-prefix}-text-width:before { content: "\ea60"; }
-.#{$imo-css-prefix}-font-size:before { content: "\ea61"; }
-.#{$imo-css-prefix}-bold:before { content: "\ea62"; }
-.#{$imo-css-prefix}-underline:before { content: "\ea63"; }
-.#{$imo-css-prefix}-italic:before { content: "\ea64"; }
-.#{$imo-css-prefix}-strikethrough:before { content: "\ea65"; }
-.#{$imo-css-prefix}-omega:before { content: "\ea66"; }
-.#{$imo-css-prefix}-sigma:before { content: "\ea67"; }
-.#{$imo-css-prefix}-page-break:before { content: "\ea68"; }
-.#{$imo-css-prefix}-superscript:before { content: "\ea69"; }
-.#{$imo-css-prefix}-subscript:before { content: "\ea6a"; }
-.#{$imo-css-prefix}-superscript2:before { content: "\ea6b"; }
-.#{$imo-css-prefix}-subscript2:before { content: "\ea6c"; }
-.#{$imo-css-prefix}-text-color:before { content: "\ea6d"; }
-.#{$imo-css-prefix}-pagebreak:before { content: "\ea6e"; }
-.#{$imo-css-prefix}-clear-formatting:before { content: "\ea6f"; }
-.#{$imo-css-prefix}-table:before { content: "\ea70"; }
-.#{$imo-css-prefix}-table2:before { content: "\ea71"; }
-.#{$imo-css-prefix}-insert-template:before { content: "\ea72"; }
-.#{$imo-css-prefix}-pilcrow:before { content: "\ea73"; }
-.#{$imo-css-prefix}-ltr:before { content: "\ea74"; }
-.#{$imo-css-prefix}-rtl:before { content: "\ea75"; }
-.#{$imo-css-prefix}-section:before { content: "\ea76"; }
-.#{$imo-css-prefix}-paragraph-left:before { content: "\ea77"; }
-.#{$imo-css-prefix}-paragraph-center:before { content: "\ea78"; }
-.#{$imo-css-prefix}-paragraph-right:before { content: "\ea79"; }
-.#{$imo-css-prefix}-paragraph-justify:before { content: "\ea7a"; }
-.#{$imo-css-prefix}-indent-increase:before { content: "\ea7b"; }
-.#{$imo-css-prefix}-indent-decrease:before { content: "\ea7c"; }
-.#{$imo-css-prefix}-share:before { content: "\ea7d"; }
-.#{$imo-css-prefix}-new-tab:before { content: "\ea7e"; }
-.#{$imo-css-prefix}-embed:before { content: "\ea7f"; }
-.#{$imo-css-prefix}-embed2:before { content: "\ea80"; }
-.#{$imo-css-prefix}-terminal:before { content: "\ea81"; }
-.#{$imo-css-prefix}-share2:before { content: "\ea82"; }
-.#{$imo-css-prefix}-mail:before { content: "\ea83"; }
-.#{$imo-css-prefix}-mail2:before { content: "\ea84"; }
-.#{$imo-css-prefix}-mail3:before { content: "\ea85"; }
-.#{$imo-css-prefix}-mail4:before { content: "\ea86"; }
-.#{$imo-css-prefix}-google:before { content: "\ea87"; }
-.#{$imo-css-prefix}-google-plus:before { content: "\ea88"; }
-.#{$imo-css-prefix}-google-plus2:before { content: "\ea89"; }
-.#{$imo-css-prefix}-google-plus3:before { content: "\ea8a"; }
-.#{$imo-css-prefix}-google-drive:before { content: "\ea8b"; }
-.#{$imo-css-prefix}-facebook:before { content: "\ea8c"; }
-.#{$imo-css-prefix}-facebook2:before { content: "\ea8d"; }
-.#{$imo-css-prefix}-facebook3:before { content: "\ea8e"; }
-.#{$imo-css-prefix}-ello:before { content: "\ea8f"; }
-.#{$imo-css-prefix}-instagram:before { content: "\ea90"; }
-.#{$imo-css-prefix}-twitter:before { content: "\ea91"; }
-.#{$imo-css-prefix}-twitter2:before { content: "\ea92"; }
-.#{$imo-css-prefix}-twitter3:before { content: "\ea93"; }
-.#{$imo-css-prefix}-feed2:before { content: "\ea94"; }
-.#{$imo-css-prefix}-feed3:before { content: "\ea95"; }
-.#{$imo-css-prefix}-feed4:before { content: "\ea96"; }
-.#{$imo-css-prefix}-youtube:before { content: "\ea97"; }
-.#{$imo-css-prefix}-youtube2:before { content: "\ea98"; }
-.#{$imo-css-prefix}-youtube3:before { content: "\ea99"; }
-.#{$imo-css-prefix}-youtube4:before { content: "\ea9a"; }
-.#{$imo-css-prefix}-twitch:before { content: "\ea9b"; }
-.#{$imo-css-prefix}-vimeo:before { content: "\ea9c"; }
-.#{$imo-css-prefix}-vimeo2:before { content: "\ea9d"; }
-.#{$imo-css-prefix}-vimeo3:before { content: "\ea9e"; }
-.#{$imo-css-prefix}-lanyrd:before { content: "\ea9f"; }
-.#{$imo-css-prefix}-flickr:before { content: "\eaa0"; }
-.#{$imo-css-prefix}-flickr2:before { content: "\eaa1"; }
-.#{$imo-css-prefix}-flickr3:before { content: "\eaa2"; }
-.#{$imo-css-prefix}-flickr4:before { content: "\eaa3"; }
-.#{$imo-css-prefix}-picassa:before { content: "\eaa4"; }
-.#{$imo-css-prefix}-picassa2:before { content: "\eaa5"; }
-.#{$imo-css-prefix}-dribbble:before { content: "\eaa6"; }
-.#{$imo-css-prefix}-dribbble2:before { content: "\eaa7"; }
-.#{$imo-css-prefix}-dribbble3:before { content: "\eaa8"; }
-.#{$imo-css-prefix}-forrst:before { content: "\eaa9"; }
-.#{$imo-css-prefix}-forrst2:before { content: "\eaaa"; }
-.#{$imo-css-prefix}-deviantart:before { content: "\eaab"; }
-.#{$imo-css-prefix}-deviantart2:before { content: "\eaac"; }
-.#{$imo-css-prefix}-steam:before { content: "\eaad"; }
-.#{$imo-css-prefix}-steam2:before { content: "\eaae"; }
-.#{$imo-css-prefix}-dropbox:before { content: "\eaaf"; }
-.#{$imo-css-prefix}-onedrive:before { content: "\eab0"; }
-.#{$imo-css-prefix}-github:before { content: "\eab1"; }
-.#{$imo-css-prefix}-github2:before { content: "\eab2"; }
-.#{$imo-css-prefix}-github3:before { content: "\eab3"; }
-.#{$imo-css-prefix}-github4:before { content: "\eab4"; }
-.#{$imo-css-prefix}-github5:before { content: "\eab5"; }
-.#{$imo-css-prefix}-wordpress:before { content: "\eab6"; }
-.#{$imo-css-prefix}-wordpress2:before { content: "\eab7"; }
-.#{$imo-css-prefix}-joomla:before { content: "\eab8"; }
-.#{$imo-css-prefix}-blogger:before { content: "\eab9"; }
-.#{$imo-css-prefix}-blogger2:before { content: "\eaba"; }
-.#{$imo-css-prefix}-tumblr:before { content: "\eabb"; }
-.#{$imo-css-prefix}-tumblr2:before { content: "\eabc"; }
-.#{$imo-css-prefix}-yahoo:before { content: "\eabd"; }
-.#{$imo-css-prefix}-tux:before { content: "\eabe"; }
-.#{$imo-css-prefix}-apple:before { content: "\eabf"; }
-.#{$imo-css-prefix}-finder:before { content: "\eac0"; }
-.#{$imo-css-prefix}-android:before { content: "\eac1"; }
-.#{$imo-css-prefix}-windows:before { content: "\eac2"; }
-.#{$imo-css-prefix}-windows8:before { content: "\eac3"; }
-.#{$imo-css-prefix}-soundcloud:before { content: "\eac4"; }
-.#{$imo-css-prefix}-soundcloud2:before { content: "\eac5"; }
-.#{$imo-css-prefix}-skype:before { content: "\eac6"; }
-.#{$imo-css-prefix}-reddit:before { content: "\eac7"; }
-.#{$imo-css-prefix}-linkedin:before { content: "\eac8"; }
-.#{$imo-css-prefix}-linkedin2:before { content: "\eac9"; }
-.#{$imo-css-prefix}-lastfm:before { content: "\eaca"; }
-.#{$imo-css-prefix}-lastfm2:before { content: "\eacb"; }
-.#{$imo-css-prefix}-delicious:before { content: "\eacc"; }
-.#{$imo-css-prefix}-stumbleupon:before { content: "\eacd"; }
-.#{$imo-css-prefix}-stumbleupon2:before { content: "\eace"; }
-.#{$imo-css-prefix}-stackoverflow:before { content: "\eacf"; }
-.#{$imo-css-prefix}-pinterest:before { content: "\ead0"; }
-.#{$imo-css-prefix}-pinterest2:before { content: "\ead1"; }
-.#{$imo-css-prefix}-xing:before { content: "\ead2"; }
-.#{$imo-css-prefix}-xing2:before { content: "\ead3"; }
-.#{$imo-css-prefix}-flattr:before { content: "\ead4"; }
-.#{$imo-css-prefix}-foursquare:before { content: "\ead5"; }
-.#{$imo-css-prefix}-paypal:before { content: "\ead6"; }
-.#{$imo-css-prefix}-paypal2:before { content: "\ead7"; }
-.#{$imo-css-prefix}-paypal3:before { content: "\ead8"; }
-.#{$imo-css-prefix}-yelp:before { content: "\ead9"; }
-.#{$imo-css-prefix}-file-pdf:before { content: "\eada"; }
-.#{$imo-css-prefix}-file-openoffice:before { content: "\eadb"; }
-.#{$imo-css-prefix}-file-word:before { content: "\eadc"; }
-.#{$imo-css-prefix}-file-excel:before { content: "\eadd"; }
-.#{$imo-css-prefix}-libreoffice:before { content: "\eade"; }
-.#{$imo-css-prefix}-html5:before { content: "\eadf"; }
-.#{$imo-css-prefix}-html52:before { content: "\eae0"; }
-.#{$imo-css-prefix}-css3:before { content: "\eae1"; }
-.#{$imo-css-prefix}-git:before { content: "\eae2"; }
-.#{$imo-css-prefix}-svg:before { content: "\eae3"; }
-.#{$imo-css-prefix}-codepen:before { content: "\eae4"; }
-.#{$imo-css-prefix}-chrome:before { content: "\eae5"; }
-.#{$imo-css-prefix}-firefox:before { content: "\eae6"; }
-.#{$imo-css-prefix}-IE:before { content: "\eae7"; }
-.#{$imo-css-prefix}-opera:before { content: "\eae8"; }
-.#{$imo-css-prefix}-safari:before { content: "\eae9"; }
-.#{$imo-css-prefix}-IcoMoon:before { content: "\eaea"; }

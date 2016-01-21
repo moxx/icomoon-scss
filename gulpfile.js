@@ -6,9 +6,11 @@ var gulp = require('gulp'),
     ttf2svg = require('ttf2svg'),
     minifycss = require('gulp-minify-css'),
     rename = require('gulp-rename'),
+    shell = require('gulp-shell'),
     runSequence = require('run-sequence').use(gulp);
 
 var icomoonSrcFont = './bower_components/IcoMoon-Free/Font/IcoMoon-Free.ttf',
+    icomoonCssFile = './bower_components/IcoMoon-Free/Font/demo-files/demo.css',
     fontDistDir = './dist/fonts/icomoon/'
 
 //run default gulp tasks
@@ -21,7 +23,7 @@ gulp.task('deploy-font', function(callback){
 
 //run sass tasks
 gulp.task('deploy-css', function(callback){
-    runSequence('sass2css', 'compress-css');
+    runSequence('generate-icons-from-src-css', 'sass2css', 'compress-css');
 })
 
 //copy icomoon src ttf font to dist
@@ -51,6 +53,14 @@ gulp.task('ttf2woff2', function(){
     .pipe(gulp.dest( fontDistDir ));
 });
 
+//generate scss icons from src css file
+gulp.task('generate-icons-from-src-css', function(){
+    return gulp.src(icomoonCssFile)
+    .pipe(shell([
+        'grep -A 3 "icon-" ./bower_components/IcoMoon-Free/Font/demo-files/demo.css | sed "s,.icon-,.#{\\$imo-css-prefix}-," > ./src/scss/_icons.scss'
+        ]));
+});
+
 
 //sass to css
 gulp.task('sass2css', function(){
@@ -60,7 +70,7 @@ gulp.task('sass2css', function(){
             this.emit('end');
         })
      .pipe(gulp.dest('./dist/css/'))
-})
+});
 
 //minify css
 gulp.task('compress-css', function(){
@@ -68,4 +78,4 @@ gulp.task('compress-css', function(){
      .pipe(minifycss())
      .pipe(rename('icomoon.min.css'))
      .pipe(gulp.dest('./dist/css/'))
-})
+});

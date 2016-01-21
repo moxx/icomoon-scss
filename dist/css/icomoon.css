@@ -1197,302 +1197,587 @@
 .imo-mail4:before {
   content: "\ea86"; }
 
-.imo-google:before {
+.imo-amazon:before {
   content: "\ea87"; }
 
-.imo-google-plus:before {
+.imo-google:before {
   content: "\ea88"; }
 
-.imo-google-plus2:before {
+.imo-google2:before {
   content: "\ea89"; }
 
-.imo-google-plus3:before {
+.imo-google3:before {
   content: "\ea8a"; }
 
-.imo-google-drive:before {
+.imo-google-plus:before {
   content: "\ea8b"; }
 
-.imo-facebook:before {
+.imo-google-plus2:before {
   content: "\ea8c"; }
 
-.imo-facebook2:before {
+.imo-google-plus3:before {
   content: "\ea8d"; }
 
-.imo-facebook3:before {
+.imo-hangouts:before {
   content: "\ea8e"; }
 
-.imo-ello:before {
+.imo-google-drive:before {
   content: "\ea8f"; }
 
-.imo-instagram:before {
+.imo-facebook:before {
   content: "\ea90"; }
 
-.imo-twitter:before {
+.imo-facebook2:before {
   content: "\ea91"; }
 
-.imo-twitter2:before {
+.imo-instagram:before {
   content: "\ea92"; }
 
-.imo-twitter3:before {
+.imo-whatsapp:before {
   content: "\ea93"; }
 
-.imo-feed2:before {
+.imo-spotify:before {
   content: "\ea94"; }
 
-.imo-feed3:before {
+.imo-telegram:before {
   content: "\ea95"; }
 
-.imo-feed4:before {
+.imo-twitter:before {
   content: "\ea96"; }
 
-.imo-youtube:before {
+.imo-vine:before {
   content: "\ea97"; }
 
-.imo-youtube2:before {
+.imo-vk:before {
   content: "\ea98"; }
 
-.imo-youtube3:before {
+.imo-renren:before {
   content: "\ea99"; }
 
-.imo-youtube4:before {
+.imo-sina-weibo:before {
   content: "\ea9a"; }
 
-.imo-twitch:before {
+.imo-rss:before {
   content: "\ea9b"; }
 
-.imo-vimeo:before {
+.imo-rss2:before {
   content: "\ea9c"; }
 
-.imo-vimeo2:before {
+.imo-youtube:before {
   content: "\ea9d"; }
 
-.imo-vimeo3:before {
+.imo-youtube2:before {
   content: "\ea9e"; }
 
-.imo-lanyrd:before {
+.imo-twitch:before {
   content: "\ea9f"; }
 
-.imo-flickr:before {
+.imo-vimeo:before {
   content: "\eaa0"; }
 
-.imo-flickr2:before {
+.imo-vimeo2:before {
   content: "\eaa1"; }
 
-.imo-flickr3:before {
+.imo-lanyrd:before {
   content: "\eaa2"; }
 
-.imo-flickr4:before {
+.imo-flickr:before {
   content: "\eaa3"; }
 
-.imo-picassa:before {
+.imo-flickr2:before {
   content: "\eaa4"; }
 
-.imo-picassa2:before {
+.imo-flickr3:before {
   content: "\eaa5"; }
 
-.imo-dribbble:before {
+.imo-flickr4:before {
   content: "\eaa6"; }
 
-.imo-dribbble2:before {
+.imo-dribbble:before {
   content: "\eaa7"; }
 
-.imo-dribbble3:before {
+.imo-behance:before {
   content: "\eaa8"; }
 
-.imo-forrst:before {
+.imo-behance2:before {
   content: "\eaa9"; }
 
-.imo-forrst2:before {
+.imo-deviantart:before {
   content: "\eaaa"; }
 
-.imo-deviantart:before {
+.imo-500px:before {
   content: "\eaab"; }
 
-.imo-deviantart2:before {
+.imo-steam:before {
   content: "\eaac"; }
 
-.imo-steam:before {
+.imo-steam2:before {
   content: "\eaad"; }
 
-.imo-steam2:before {
+.imo-dropbox:before {
   content: "\eaae"; }
 
-.imo-dropbox:before {
+.imo-onedrive:before {
   content: "\eaaf"; }
 
-.imo-onedrive:before {
+.imo-github:before {
   content: "\eab0"; }
 
-.imo-github:before {
+.imo-npm:before {
   content: "\eab1"; }
 
-.imo-github2:before {
+.imo-basecamp:before {
   content: "\eab2"; }
 
-.imo-github3:before {
+.imo-trello:before {
   content: "\eab3"; }
 
-.imo-github4:before {
+.imo-wordpress:before {
   content: "\eab4"; }
 
-.imo-github5:before {
+.imo-joomla:before {
   content: "\eab5"; }
 
-.imo-wordpress:before {
+.imo-ello:before {
   content: "\eab6"; }
 
-.imo-wordpress2:before {
+.imo-blogger:before {
   content: "\eab7"; }
 
-.imo-joomla:before {
+.imo-blogger2:before {
   content: "\eab8"; }
 
-.imo-blogger:before {
+.imo-tumblr:before {
   content: "\eab9"; }
 
-.imo-blogger2:before {
+.imo-tumblr2:before {
   content: "\eaba"; }
 
-.imo-tumblr:before {
+.imo-yahoo:before {
   content: "\eabb"; }
 
-.imo-tumblr2:before {
+.imo-yahoo2:before {
   content: "\eabc"; }
 
-.imo-yahoo:before {
+.imo-tux:before {
   content: "\eabd"; }
 
-.imo-tux:before {
+.imo-appleinc:before {
   content: "\eabe"; }
 
-.imo-apple:before {
+.imo-finder:before {
   content: "\eabf"; }
 
-.imo-finder:before {
+.imo-android:before {
   content: "\eac0"; }
 
-.imo-android:before {
+.imo-windows:before {
   content: "\eac1"; }
 
-.imo-windows:before {
+.imo-windows8:before {
   content: "\eac2"; }
 
-.imo-windows8:before {
+.imo-soundcloud:before {
   content: "\eac3"; }
 
-.imo-soundcloud:before {
+.imo-soundcloud2:before {
   content: "\eac4"; }
 
-.imo-soundcloud2:before {
+.imo-skype:before {
   content: "\eac5"; }
 
-.imo-skype:before {
+.imo-reddit:before {
   content: "\eac6"; }
 
-.imo-reddit:before {
+.imo-hackernews:before {
   content: "\eac7"; }
 
-.imo-linkedin:before {
+.imo-wikipedia:before {
   content: "\eac8"; }
 
-.imo-linkedin2:before {
+.imo-linkedin:before {
   content: "\eac9"; }
 
-.imo-lastfm:before {
+.imo-linkedin2:before {
   content: "\eaca"; }
 
-.imo-lastfm2:before {
+.imo-lastfm:before {
   content: "\eacb"; }
 
-.imo-delicious:before {
+.imo-lastfm2:before {
   content: "\eacc"; }
 
-.imo-stumbleupon:before {
+.imo-delicious:before {
   content: "\eacd"; }
 
-.imo-stumbleupon2:before {
+.imo-stumbleupon:before {
   content: "\eace"; }
 
-.imo-stackoverflow:before {
+.imo-stumbleupon2:before {
   content: "\eacf"; }
 
-.imo-pinterest:before {
+.imo-stackoverflow:before {
   content: "\ead0"; }
 
-.imo-pinterest2:before {
+.imo-pinterest:before {
   content: "\ead1"; }
 
-.imo-xing:before {
+.imo-pinterest2:before {
   content: "\ead2"; }
 
-.imo-xing2:before {
+.imo-xing:before {
   content: "\ead3"; }
 
-.imo-flattr:before {
+.imo-xing2:before {
   content: "\ead4"; }
 
-.imo-foursquare:before {
+.imo-flattr:before {
   content: "\ead5"; }
 
-.imo-paypal:before {
+.imo-foursquare:before {
   content: "\ead6"; }
 
-.imo-paypal2:before {
+.imo-yelp:before {
   content: "\ead7"; }
 
-.imo-paypal3:before {
+.imo-paypal:before {
   content: "\ead8"; }
 
-.imo-yelp:before {
+.imo-chrome:before {
   content: "\ead9"; }
 
-.imo-file-pdf:before {
+.imo-firefox:before {
   content: "\eada"; }
 
-.imo-file-openoffice:before {
+.imo-IE:before {
   content: "\eadb"; }
 
-.imo-file-word:before {
+.imo-edge:before {
   content: "\eadc"; }
 
-.imo-file-excel:before {
+.imo-safari:before {
   content: "\eadd"; }
 
-.imo-libreoffice:before {
+.imo-opera:before {
   content: "\eade"; }
 
-.imo-html5:before {
+.imo-file-pdf:before {
   content: "\eadf"; }
 
-.imo-html52:before {
+.imo-file-openoffice:before {
   content: "\eae0"; }
 
-.imo-css3:before {
+.imo-file-word:before {
   content: "\eae1"; }
 
-.imo-git:before {
+.imo-file-excel:before {
   content: "\eae2"; }
 
-.imo-svg:before {
+.imo-libreoffice:before {
   content: "\eae3"; }
 
-.imo-codepen:before {
+.imo-html-five:before {
   content: "\eae4"; }
 
-.imo-chrome:before {
+.imo-html-five2:before {
   content: "\eae5"; }
 
-.imo-firefox:before {
+.imo-css3:before {
   content: "\eae6"; }
 
-.imo-IE:before {
+.imo-git:before {
   content: "\eae7"; }
 
-.imo-opera:before {
+.imo-codepen:before {
   content: "\eae8"; }
 
-.imo-safari:before {
+.imo-svg:before {
   content: "\eae9"; }
 
 .imo-IcoMoon:before {
   content: "\eaea"; }
+
+.imo-uni21:before {
+  content: "\21"; }
+
+.imo-uni22:before {
+  content: "\22"; }
+
+.imo-uni23:before {
+  content: "\23"; }
+
+.imo-uni24:before {
+  content: "\24"; }
+
+.imo-uni25:before {
+  content: "\25"; }
+
+.imo-uni26:before {
+  content: "\26"; }
+
+.imo-uni27:before {
+  content: "\27"; }
+
+.imo-uni28:before {
+  content: "\28"; }
+
+.imo-uni29:before {
+  content: "\29"; }
+
+.imo-uni2A:before {
+  content: "\2a"; }
+
+.imo-uni2B:before {
+  content: "\2b"; }
+
+.imo-uni2C:before {
+  content: "\2c"; }
+
+.imo-uni2D:before {
+  content: "\2d"; }
+
+.imo-uni2E:before {
+  content: "\2e"; }
+
+.imo-uni2F:before {
+  content: "\2f"; }
+
+.imo-uni30:before {
+  content: "\30"; }
+
+.imo-uni31:before {
+  content: "\31"; }
+
+.imo-uni32:before {
+  content: "\32"; }
+
+.imo-uni33:before {
+  content: "\33"; }
+
+.imo-uni34:before {
+  content: "\34"; }
+
+.imo-uni35:before {
+  content: "\35"; }
+
+.imo-uni36:before {
+  content: "\36"; }
+
+.imo-uni37:before {
+  content: "\37"; }
+
+.imo-uni38:before {
+  content: "\38"; }
+
+.imo-uni39:before {
+  content: "\39"; }
+
+.imo-uni3A:before {
+  content: "\3a"; }
+
+.imo-uni3B:before {
+  content: "\3b"; }
+
+.imo-uni3C:before {
+  content: "\3c"; }
+
+.imo-uni3D:before {
+  content: "\3d"; }
+
+.imo-uni3E:before {
+  content: "\3e"; }
+
+.imo-uni3F:before {
+  content: "\3f"; }
+
+.imo-uni40:before {
+  content: "\40"; }
+
+.imo-uni41:before {
+  content: "\41"; }
+
+.imo-uni42:before {
+  content: "\42"; }
+
+.imo-uni43:before {
+  content: "\43"; }
+
+.imo-uni44:before {
+  content: "\44"; }
+
+.imo-uni45:before {
+  content: "\45"; }
+
+.imo-uni46:before {
+  content: "\46"; }
+
+.imo-uni47:before {
+  content: "\47"; }
+
+.imo-uni48:before {
+  content: "\48"; }
+
+.imo-uni49:before {
+  content: "\49"; }
+
+.imo-uni4A:before {
+  content: "\4a"; }
+
+.imo-uni4B:before {
+  content: "\4b"; }
+
+.imo-uni4C:before {
+  content: "\4c"; }
+
+.imo-uni4D:before {
+  content: "\4d"; }
+
+.imo-uni4E:before {
+  content: "\4e"; }
+
+.imo-uni4F:before {
+  content: "\4f"; }
+
+.imo-uni50:before {
+  content: "\50"; }
+
+.imo-uni51:before {
+  content: "\51"; }
+
+.imo-uni52:before {
+  content: "\52"; }
+
+.imo-uni53:before {
+  content: "\53"; }
+
+.imo-uni54:before {
+  content: "\54"; }
+
+.imo-uni55:before {
+  content: "\55"; }
+
+.imo-uni56:before {
+  content: "\56"; }
+
+.imo-uni57:before {
+  content: "\57"; }
+
+.imo-uni58:before {
+  content: "\58"; }
+
+.imo-uni59:before {
+  content: "\59"; }
+
+.imo-uni5A:before {
+  content: "\5a"; }
+
+.imo-uni5B:before {
+  content: "\5b"; }
+
+.imo-uni5C:before {
+  content: "\5c"; }
+
+.imo-uni5D:before {
+  content: "\5d"; }
+
+.imo-uni5E:before {
+  content: "\5e"; }
+
+.imo-uni5F:before {
+  content: "\5f"; }
+
+.imo-uni60:before {
+  content: "\60"; }
+
+.imo-uni61:before {
+  content: "\61"; }
+
+.imo-uni62:before {
+  content: "\62"; }
+
+.imo-uni63:before {
+  content: "\63"; }
+
+.imo-uni64:before {
+  content: "\64"; }
+
+.imo-uni65:before {
+  content: "\65"; }
+
+.imo-uni66:before {
+  content: "\66"; }
+
+.imo-uni67:before {
+  content: "\67"; }
+
+.imo-uni68:before {
+  content: "\68"; }
+
+.imo-uni69:before {
+  content: "\69"; }
+
+.imo-uni6A:before {
+  content: "\6a"; }
+
+.imo-uni6B:before {
+  content: "\6b"; }
+
+.imo-uni6C:before {
+  content: "\6c"; }
+
+.imo-uni6D:before {
+  content: "\6d"; }
+
+.imo-uni6E:before {
+  content: "\6e"; }
+
+.imo-uni6F:before {
+  content: "\6f"; }
+
+.imo-uni70:before {
+  content: "\70"; }
+
+.imo-uni71:before {
+  content: "\71"; }
+
+.imo-uni72:before {
+  content: "\72"; }
+
+.imo-uni73:before {
+  content: "\73"; }
+
+.imo-uni74:before {
+  content: "\74"; }
+
+.imo-uni75:before {
+  content: "\75"; }
+
+.imo-uni76:before {
+  content: "\76"; }
+
+.imo-uni77:before {
+  content: "\77"; }
+
+.imo-uni78:before {
+  content: "\78"; }
+
+.imo-uni79:before {
+  content: "\79"; }
+
+.imo-uni7A:before {
+  content: "\7a"; }
+
+.imo-uni7B:before {
+  content: "\7b"; }
+
+.imo-uni7C:before {
+  content: "\7c"; }
+
+.imo-uni7D:before {
+  content: "\7d"; }
+
+.imo-uni7E:before {
+  content: "\7e"; }
+
+.imo-uniA9:before {
+  content: "\a9"; }
